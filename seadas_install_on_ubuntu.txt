@@ -63,6 +63,7 @@ wget -cN http://oceandata.sci.gsfc.nasa.gov/ocssw/modis.bundle
 wget -cN http://oceandata.sci.gsfc.nasa.gov/ocssw/modisa.bundle
 wget -cN http://oceandata.sci.gsfc.nasa.gov/ocssw/hmodisa.bundle
 wget -cN http://oceandata.sci.gsfc.nasa.gov/ocssw/seawifs.bundle
+wget -cN http://oceandata.sci.gsfc.nasa.gov/ocssw/modist.bundle
 Make the install script executable, and run it:
 chmod +x install_ocssw.py
 #./install_ocssw.py –install-dir=<seadas-<version> install directory>/ocssw –git-branch=v<version> –local=/tmp –aqua –seawifs
