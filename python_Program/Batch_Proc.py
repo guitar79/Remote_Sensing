@@ -34,7 +34,7 @@ Input_Level ='1'
 
 # Final Processing Level: '2' for Level-2 files, '3' for Level-3 mapped files
 #------------------------------------------------------------------------------
-Final_level = '2'
+Final_level = '3'
 
  
  
@@ -46,13 +46,13 @@ Final_level = '2'
 #############################################################################
 
 
-
 #  Location of the Level-1 Files:
 #  -------------------------------------------------------------------------
 #
-#l1a_dir = '/home/guitar79/remoUsers/madhur/satellite/data/del'
-l1a_dir = '/home/guitar79/asdf/tmp3/'
-2
+l1a_dir = '/Users/ChangO/Downloads/2009swfsdata_yellowsea'
+
+
+
 
 
 #  Location where Level-2 Files will be written when processed from 
@@ -61,16 +61,16 @@ l1a_dir = '/home/guitar79/asdf/tmp3/'
 #  -------------------------------------------------------------------------
 #
 #l2_dir = '/rsclass/netcdf_data_2016/seawifs_12_may27'
-#l2_dir = '/Users/madhur/satellite/data/del/l2'
-l2_dir = '/home/guitar79/asdf/tmp3/l2'
+l2_dir = '/Users/ChangO/Downloads/2009swfsdata_yellowsea/l2'
+
 
 
 
 #  Location where L3map Files and PNG Files will be Written:
 #  -------------------------------------------------------------------------
 #
-#binmap_dir = '/Users/madhur/satellite/data/del/l3'
-binmap_dir = '/home/guitar79/asdf/tmp2/l3'
+binmap_dir = '/Users/ChangO/Downloads/2009swfsdata_yellowsea/l3'
+
 
 
 
@@ -78,8 +78,8 @@ binmap_dir = '/home/guitar79/asdf/tmp2/l3'
 #  Note: Latitude-Longitude Order MUST BE: 'south, west, north, east'
 #  -------------------------------------------------------------------------
 #
-#latlon = '28,-93,29,-92'           # Lat/Lon Order is S,W,N,E                      
-latlon = '36.31,126.05,38.71,129.21'
+latlon = '31.77,116.47,42.22,127.99'           # Lat/Lon Order is S,W,N,E
+
 
 
 # -------------------------------------------------------------------------  
@@ -107,8 +107,9 @@ latlon = '36.31,126.05,38.71,129.21'
 # For the case of modis and virrs you also have the option to set sst output
 # Options Are: prod_list_L12 = 'sst' or 'none' (future plans will allow sst4)
 # -----------------------------    
-prod_list_L12 =    'chlor_a'  # ex:'chlor_a,PIC'  Option is 'OC_suite' or comma separated list of products
-prod_list_L12_sst= 'sst'      # Option is 'sst' or 'none'
+prod_list_L12 =    'chlor_a'  # Option is 'OC_suite' or comma separated list of products
+#prod_list_L12 = 'chlor_a,pic'
+prod_list_L12_sst= 'none'      # Option is 'sst' or 'none'
 
 
 
@@ -160,8 +161,7 @@ space_res = '1'
 # l3bin -Temporal Binning (Averaging Period) daily, weekly, or monthly
 # Options Are: DLY, WKY, or MON  
 # ------------------------------
-time_period = 'DLY'   
-
+time_period = 'WKY'
 
 # Binning or Straight Mapping Statistics Output, on or off. 
 # This tunes on file output of variance and numer of pixel in binning process
@@ -174,7 +174,7 @@ stats_yesno = 'no'
 
 # Force Staraight Map...
 # ----------------------------------
-straight_map= 'no'  # options are yes or no...
+straight_map= 'yes'  # options are yes or no...
 
 
 
@@ -195,8 +195,8 @@ sst_flags = 'standard'
 # mapped or else a specific list of products, for example..  
 # prod_list_L23 ='all''chlor_a,pic,poc,cdom_index'
 # ----------------------------
-prod_list_L23 = 'chlor_a'       
-
+#prod_list_L23 = 'chlor_a,pic,sst'
+prod_list_L23 = 'chlor_a'
 
 
 
@@ -221,10 +221,8 @@ if Input_Level == '1' and Final_level == '3':
     batch_L12.batch_proc_L12(l1a_dir, l2_dir, prod_list_L12, prod_list_L12_sst, swir_onoff, hires)
     batch_L23.batch_proc_L23(l2_dir, binmap_dir, prod_list_L23, space_res,time_period, color_flags, sst_flags, latlon, smi_proj, stats_yesno, straight_map)
 elif Input_Level =='1' and Final_level == '2':
-#    batch_L12.batch_proc_L12(l1a_dir, l2_dir, prod_list_L12, prod_list_L12_sst, NO2_onoff, swir_onoff, hires)
-#edited by Kevin
+   # batch_L12.batch_proc_L12(l1a_dir, l2_dir, prod_list_L12, prod_list_L12_sst, NO2_onoff, swir_onoff, hires)
     batch_L12.batch_proc_L12(l1a_dir, l2_dir, prod_list_L12, prod_list_L12_sst, swir_onoff, hires)
-
 elif Input_Level == '2' and Final_level == '3':
     batch_L23.batch_proc_L23(l2_dir, binmap_dir, prod_list_L23, space_res,time_period, color_flags, sst_flags, latlon, smi_proj, stats_yesno, straight_map)
 else:
