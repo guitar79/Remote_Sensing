@@ -7,205 +7,125 @@ https://oceandata.sci.gsfc.nasa.gov/SeaDAS/installer/7.3.2/seadas_7.3.2_macos_in
 
 #Installing SeaDAS
 
-#Install the following ubuntu packages:
-
-sudo apt-get install gcc
-sudo apt-get install git
-sudo apt-get install curl
-sudo apt-get install wget
-
-#Download and Install Oracle Java (OpenJDK is already installed in kubuntu, Oracle Java is recommended.):
-
-sudo add-apt-repository ppa:webupd8team/java
-sudo apt-get update
-sudo apt-get install oracle-java8-installer
-sudo apt-get install oracle-java8-set-default
-java -version
-
-#Note: Below are the results of running java -version when preparing this tutorial.
-
-#Java version “1.8.0_40”
-#Java™ SE Runtime Environment (build 1.8.0_40-b25)
-#Java HotSpot™ 64-Bit Server VM (build 25.40-b25, mixed mode)
 
 
-#Download and Install SeaDAS:
-#Download the appropriate Linux installer from the SeaDAS Downloads page
+#############################################################
+#Installing Python Environment with Anaconda ################
+#############################################################
 
-sh seadas_<version>_linux64_installer.sh 
-#Note: Replace <version> with the version number of the downloaded SeaDAS bundle
+Go to the Anaconda Website and Download Python 2.7 using the graphical user interface (GUI).  
+Install Anaconda on Macintosh HD (or other common area the can be access by all users).
 
-#Install OCSSW software (SeaDAS data processing components)
+Open a Unix Terminal Window.
+Install and/or Update the following python packages by typing the following:
 
-#This can be done within the GUI or using the command line installer. 
-#Instructions for the command line installer can be found on the SeaDAS Downloads page 
-#If your network connection is not stable and high speed to the U.S., there may be issues with retrieving the large data bundles.
-#The following instructions allow for an “offline” installation that circumvents many potential network connection problems.
+conda  update conda
+conda  update matplotlib
 
-#Download the Git bundles, README, OCSSW_env.bash, sha1sum file, and install script:
+conda  install source-forge/netcdf4 -------># google search for anaconda sourceforge netcdf4                                                                                                   # to get exact syntax
+conda  update  netcdf4   # there should be an Anaconda Cloud link
+# copy the conda install syntax to the terminal window. 
 
-cd /tmp
-wget -cN http://oceandata.sci.gsfc.nasa.gov/ocssw/install_ocssw.py
-wget -cN http://oceandata.sci.gsfc.nasa.gov/ocssw/README
-wget -cN http://oceandata.sci.gsfc.nasa.gov/ocssw/OCSSW_bash.env
-wget -cN http://oceandata.sci.gsfc.nasa.gov/ocssw/bundles.sha256sum
-wget -cN http://oceandata.sci.gsfc.nasa.gov/ocssw/scripts.bundle
-wget -cN http://oceandata.sci.gsfc.nasa.gov/ocssw/common.bundle
-wget -cN http://oceandata.sci.gsfc.nasa.gov/ocssw/bin-linux_64.bundle
-wget -cN http://oceandata.sci.gsfc.nasa.gov/ocssw/bin3-linux_64.bundle
-wget -cN http://oceandata.sci.gsfc.nasa.gov/ocssw/ocrvc.bundle
-wget -cN http://oceandata.sci.gsfc.nasa.gov/ocssw/modis.bundle
-wget -cN http://oceandata.sci.gsfc.nasa.gov/ocssw/modisa.bundle
-wget -cN http://oceandata.sci.gsfc.nasa.gov/ocssw/hmodisa.bundle
-wget -cN http://oceandata.sci.gsfc.nasa.gov/ocssw/seawifs.bundle
-wget -cN http://oceandata.sci.gsfc.nasa.gov/ocssw/modist.bundle
-Make the install script executable, and run it:
-chmod +x install_ocssw.py
-#./install_ocssw.py –install-dir=<seadas-<version> install directory>/ocssw –git-branch=v<version> –local=/tmp –aqua –seawifs
-#./install_ocssw.py –install-dir=/home/guitar79/seadas-7.3.2/ocssw –git-branch=v-7.3 –local=/home/guitar79/Downloads –goci –avhrr
-./install_ocssw.py --install-dir=/home/guitar79/seadas-7.3.2/ocssw --git-branch=v7.3 --local=/home/guitar79/Downloads --terra --auqa
+conda  install  cistools/pyhf  ------------->  # google search for cistools  pyhdf, then follow method 
+conda  update pyhdf                                  # above  to get exact syntax         
 
-#Re-run the installer after it finishes the “local” install to get the updates added after the bundles were created:
-#sudo ./install_ocssw.py –install-dir=<seadas-<version> install directory>/ocssw –git-branch=v<version> –aqua –seawifs
-#sudo ./install_ocssw.py –install-dir=/home/guitar79/seadas-7.3.2/ocssw –git-branch=v-7.3 –aqua –seawifs –goci –avhrr
-sudo ./install_ocssw.py --install-dir=/home/guitar79/seadas-7.3.2/ocssw --git-branch=v7.3 --terra --aqua
+conda install hdf5
+conda  install  basemap
+conda  install pyproj
+conda  install pykdtree    - I think you don’t need this now… (so don’t install)
 
-#Installing Python Virtual Environment
+conda update pip
 
-#The following is not explicitly required for SeaDAS, but does provide tools that are useful when working with satellite data and implementing SeaDAS tools in a script environment.
+      And just to be sure do a total update of everything…
+conda update --all 
 
-#Install the following ubuntu packages:
-sudo apt-get install python-dev
-sudo apt-get install python-pip
-sudo apt-get install python-virtualenv
-#(libraries for matplotlib)
-sudo apt-get install libfreetype6-dev libxft-dev
-#(libraries for scipy)
-sudo apt-get install libblas3gf libc6 libgcc1 libgfortran3 liblapack3gf libstdc++6
-build-essential gfortran python-all-dev
-#(installing matplotlib in the python global environment)
-sudo apt-get install python-numpy python-scipy python-matplotlib ipython
-ipython-notebook python-pandas python-sympy python-nose
-sudo apt-get install python-mpltoolkits.basemap
-#(this tool is used by the hdf compilation process)
-sudo apt-get install m4
-#(this package contains the hdf.h library required by the python netCDF4 compilation process)
-sudo apt-get install libhdf4-dev 
+Go to pyresample the GitHub site and download zipped directory for version 0.7.13   Look on the GitHub page for “Branches” (to the left side of the page) – these are the older versions you want to choose from.
 
-#Install linux hdf5 libraries:
-#Download the hdf5 source code:
-wget http://www.hdfgroup.org/ftp/HDF5/current/src/hdf5-1.8.14.tar.gz
+Follow the GitHub Documentation Install instructions or see: https://pyresample.readthedocs.io/en/latest/installation.html  
+Basically, you will do the following…
 
-#Decompress the file:
-tar -xzvf hdf5-1.8.14.tar.gz && cd hdf5-1.8.14
-#Compile source code and install the library in linux:
-./configure –prefix=/usr/local –enable-shared –enable-hl –with-zlib=/usr/local
-make -j 4
-sudo make install
-#Note: If an error is launched regarding the zlib is missing, you have to install that library and then compile again the hdf5 library
+cd to pyresample directory
+Test for compatibility using the command:  noestests
+Install pyresample using the command:  python setup.py install
 
-#Download the zlib source code:
-wget ftp://ftp.unidata.ucar.edu/pub/netcdf/netcdf-4/zlib-1.2.8.tar.gz
-#Decompress the file:
-tar -xzvf zlib-1.2.8.tar.gz && cd zlib-1.2.8
-#Compile source code and install the library in linux:
-./configure –prefix=/usr/local
-make -j 4
-sudo make install
+######################################################################################
 
-#Install linux netCDF4 libraries:
-#Download the netCDF4 source code:
-wget ftp://ftp.unidata.ucar.edu/pub/netcdf/netcdf-4.3.3.tar.gz
-#Decompress the file:
-tar -xzvf netcdf-4.3.3.tar.gz && cd netcdf-4.3.3
-#Compile source code and install the library in linux:
-LDFLAGS=-L/usr/local/lib CPPFLAGS=-I/usr/local/include ./configure –enable-netcdf-4 –enable-dap –enable-shared –prefix=/usr/local
-make -j 4
-sudo make install
+##################################################################################
+##   Setup WGET to Access HTTPS Files
+###################################################################################
 
-#Create OceanColor Python Virtual Environment, inheriting the global libraries. You can create this environment in a folder where you have permissions; for example, we can use the following folder scheme:
+Get the most recent version of wget 
+For Macs, GoTo: http://rudix.org/packages/wget.html
+Download and install wget for Sierra OSX (or your current OS being used)
 
-#    /
-#    |–home
-#    |  |–user
-#    |  |  |–OceanColorProject
-#    |  |  |  |–OceanColorVirtualEnv
-#    |  |  |  |–PythonScriptsSourceCode
-#    |  |  |  |–activate_oceancolor_virtualenv.sh
+Check that wget is installed in /usr/local/bin (or equivalent)
+$ which wget
 
-mkdir /home/user/OceanColorProject
-cd /home/user/OceanColorProject
-virtualenv -system-site-packages OceanColorVirtualEnv
-virtualenv --system-site-packages OceanColorVirtualEnv
+Check that /usr/local/bin (or equivalent) is in the path in the .bashrc file
+$ echo $PATH
 
-#Make a script to activate the virtual environment and use it to enter the virtual environment:
-#$ echo “source OceanColorVirtualEnv/bin/activate” > activate_oceancolor_virtualenv.sh
-echo "source OceanColorVirtualEnv/bin/activate" > activate_oceancolor_virtualenv.sh
+Be sure it is the latest version and that is has ssl capabilities:  
+$ wget --version
 
-chmod +x activate_oceancolor_virtualenv.sh
-. activate_oceancolor_virtualenv.sh
-#Note: Observe the dot and space at the beginning of the last command
+GNU Wget 1.18 built on darwin15.5.0.
 
-#Once inside the virtualenv you can install the Python libraries used by this particular project. Prior to that, check that we are using the respective pip command of the virtualenv:
+-cares +digest -gpgme +https +ipv6 +iri +large-file -metalink +nls 
++ntlm +opie -psl +ssl/openssl 
 
-#(OceanColorVirtualEnv)$ which pip
-#(OceanColorVirtualEnv)$ pip install pyproj
-#(OceanColorVirtualEnv)$ pip install pyresample
-# 프롬프트가 위처럼 나와야 함.
-which pip
-pip install pyproj
-pip install pyresample
+Open (or create) the ~/.netrc file and be sure you have a line in there for your URS-EarthData username and password.  The line should look like this:
+machine urs.earthdata.nasa.gov login your_user_name password your_password
+
+Be sure you are specifically registered for NASA GESDISC DATA ARCHIVE
+Become a registered used if you are not already a user
+https://urs.earthdata.nasa.gov
+
+Go to your user profile
+https://urs.earthdata.nasa.gov/profile
+Use the pulldown menu “My Applications”
+Select: “Approve More Applications”
+Choose and Approve NASA GESDISC DATA ARCHIVE
+ 
+Be sure wget can get to the latest versions of certifications. 
+
+If running on an Apple Mac OS…
+Install MacPorts (https://www.macports.org/install.php) specific for your current OSX.
+For MacPort installed openssl type the following to install the Certificate Authority:
+$ sudo port install curl-ca-bundle
+Then push its reference to the wget settings profile:
+$ echo CA_CERTIFICATE=/opt/local/share/curl/curl-ca-bundle.crt >> ~/.wgetrc
+See: http://superuser.com/questions/262809/where-do-i-install-certificates-so-that-wget-and-other-macports-programs-will-fi
+Better Yet, See: http://andatche.com/blog/2012/02/fixing-ssl-ca-certificates-with-openssl-from-macports/
+
+Create a cookie file – At the terminal prompt, type:  touch ~/.urs_cookies
+
+Example Download To Test Setup (note: all below is a single line)…
+
+$ wget load-cookies=~/.urs_cookies save-cookies=~/.urs_cookies auth-no-challenge=on --keep-session-cookies https://tads1.gesdisc.eosdis.nasa.gov/data/aqua_dprep/PM1ATTNR.003/2016/347/PM1ATTNR.P2016347.0000.003.2016347150040
+
+Or…
+$ curl  -b ~/.urs_cookies -c ~/.urs_cookies -L -n -O https://tads1.gesdisc.eosdis.nasa.gov/data/aqua_dprep/PM1ATTNR.003/2016/347/PM1ATTNR.P2016347.0000.003.2016347150040
 
 
-#Install the pyhdf Python module:
-#Download the pyhdf source code:
-wget http://hdfeos.org/software/pyhdf/pyhdf-0.9.0.tar.gz
 
-#Decompress the file:
-tar -xzvf pyhdf-0.9.0.tar.gz && cd pyhdf-0.9.0
+ALSO… From the Ocean Color Forum, See The Following… (https://oceancolor.gsfc.nasa.gov/forum/oceancolor/topic_show.pl?pid=27565;hl=install)
 
-#Compile source code and install the library in the Python virtualenv:
-#(OceanColorVirtualEnv)$ python setup.py install
-python setup.py install
+You can check the openssl version that python is using by typing the following at the python prompt:
 
-#Install the netCDF4 Python module:
+>>>import ssl
+>>>ssl.OPENSSL_VERSION
 
-#Download the netCDF4 source code
-wget https://netcdf4-python.googlecode.com/files/netCDF4-1.0.7.tar.gz
+It is known that this version works:
+'OpenSSL 1.0.2g  1 Mar 2016'
 
-#Decompress the file:
-tar -xzvf netCDF4-1.0.7.tar.gz && cd netCDF4-1.0.7
+ALSO--- Your machine's openssl needs to support at least one of the following ciphers:
+ECDHE-ECDSA-CHACHA20-POLY1305
+ECDHE-ECDSA-AES256-GCM-SHA384 
+ECDHE-ECDSA-AES128-GCM-SHA256
+ECDHE-ECDSA-AES256-SHA384
+ECDHE-ECDSA-AES128-SHA256
 
-#Compile source code and install the library in the Python virtualenv:
-#(OceanColorVirtualEnv)$ python setup.py install
-python setup.py install
+You can check that your system provides one of these with the following:
+openssl ciphers -tls -v 'HIGH:!ADH:!MD5:@STRENGTH' | egrep "ECDHE-ECDSA-CHACHA20-POLY1305|ECDHE-ECDSA-AES256-GCM-SHA384|ECDHE-ECDSA-AES128-GCM-SHA256|ECDHE-ECDSA-AES256-SHA384|ECDHE-ECDSA-AES128-SHA256" 
 
-#Check if all required libraries are satisfied:
-#(OceanColorVirtualEnv)$ pip list
-pip list
+###############################################################################################
 
-#Note: A Virtual Environment is a tool to keep the dependencies required by different projects in separate places, by creating virtual Python environments for them. It solves the “Project X depends on version 1.x but, Project Y needs 4.x” dilemma, and keeps your global site-packages directory clean and manageable. However, if you want you can omit the virtual environment creation by omitting items 4 and 5.
-
-#Set the required environment variables
-#In order to maintain a clean environment we are going to set the required environment variable in the file <path>/OceanColorVirtualEnv/bin/activate adding the following lines:
-
-#export SEADASPATH=<path>/seadas-7.1
-#export PATH=PATH:PATH:SEADASPATH/bin
-#export PYTHON_PROGRAMS=<path>/python_programs
-#export PYTHONPATH=PYTHONPATH:PYTHONPATH:PYTHON_PROGRAMS:$PYTHON_PROGRAMS/utilities
-#export LOCAL_RESOURCES=$PYTHON_PROGRAMS/local_procesing_resources
-#export OCSSWROOT=$SEADASPATH/ocssw
-#export OCSSW_DEBUG=0 # set to 1 for debugging
-#source $OCSSWROOT/OCSSW_bash.env
-
-mkdir /home/guitar79/python_programs
-export SEADASPATH=/home/guitar79/seadas-7.1
-export PATH=PATH:PATH:SEADASPATH/bin
-export PYTHON_PROGRAMS=/home/guitar79/python_programs
-export PYTHONPATH=PYTHONPATH:PYTHONPATH:PYTHON_PROGRAMS:$PYTHON_PROGRAMS/utilities
-export LOCAL_RESOURCES=$PYTHON_PROGRAMS/local_procesing_resources
-export OCSSWROOT=$SEADASPATH/ocssw
-export OCSSW_DEBUG=0 # set to 1 for debugging
-source $OCSSWROOT/OCSSW_bash.env
-
-#Note: you have to change <path> for the location that you choose in your case. On the other hand, if you did not create a python virtual environment, you can add these lines in the file ~/.bashrc
