@@ -156,3 +156,14 @@ openssl ciphers -tls -v 'HIGH:!ADH:!MD5:@STRENGTH' | egrep "ECDHE-ECDSA-CHACHA20
 
 ###############################################################################################
 
+
+
+cd
+cd Downloads
+
+#./install_ocssw.py --install-dir=/home/guitar79/seadas-7.3.2/ocssw --git-branch=v7.3 --local=/home/guitar79/Downloads --terra --auqa
+
+./install_ocssw.py --install-dir=/Application/seadas-7.3.2/ocssw --git-branch=v7.3 --local=/User/student/Downloads --terra --auqa --avhrr --seawifs --goci
+
+#Re-run the installer after it finishes the “local” install to get the updates added after the bundles were created:
+sudo ./install_ocssw.py --install-dir=/Application/seadas-7.3.2/ocssw --git-branch=v7.3 --terra --auqa --avhrr --seawifs --goci
