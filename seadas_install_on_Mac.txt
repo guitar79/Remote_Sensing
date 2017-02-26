@@ -24,20 +24,44 @@ conda  update matplotlib
 
 conda  install source-forge/netcdf4 -------># google search for anaconda sourceforge netcdf4                                                                                                   # to get exact syntax
 conda  update  netcdf4   # there should be an Anaconda Cloud link
+
 # copy the conda install syntax to the terminal window. 
 
-conda  install  cistools/pyhf  ------------->  # google search for cistools  pyhdf, then follow method 
+conda  install  cistools/pyhdf  ------------->  # google search for cistools  pyhdf, then follow method 
 conda  update pyhdf                                  # above  to get exact syntax         
+
+# pyhdf manual install required
+----------------------------------------------------------------------------------
+# http://pysclint.sourceforge.net/pyhdf/install.html
+Install from Source
+
+Requirements:
+
+Python 2.5+
+NumPy 1.0.4+
+Compiler suite e.g.
+HDF4.2r3 libraries (to use their HDF4 binaries, you will also need szip, available from the same page)
+zlib
+libjpeg
+NOTE: OS X users can obtain jpeg libraries here. Once the above packages are installed, you are ready to download and install pyhdf. Binaries and source tarballs can be downloaded from the SourceForge project page.
+
+Go to the pyhdf source directory.
+sudo python setup.py install
+
+------------------------------------------------------------------------------------------------
 
 conda install hdf5
 conda  install  basemap
 conda  install pyproj
+
 conda  install pykdtree    - I think you don’t need this now… (so don’t install)
 
 conda update pip
 
-      And just to be sure do a total update of everything…
+#And just to be sure do a total update of everything…
 conda update --all 
+
+#pyresample 1.1.1
 
 Go to pyresample the GitHub site and download zipped directory for version 0.7.13   Look on the GitHub page for “Branches” (to the left side of the page) – these are the older versions you want to choose from.
 
@@ -91,6 +115,9 @@ If running on an Apple Mac OS…
 Install MacPorts (https://www.macports.org/install.php) specific for your current OSX.
 For MacPort installed openssl type the following to install the Certificate Authority:
 $ sudo port install curl-ca-bundle
+
+#xcode update is required -added by Kevin
+
 Then push its reference to the wget settings profile:
 $ echo CA_CERTIFICATE=/opt/local/share/curl/curl-ca-bundle.crt >> ~/.wgetrc
 See: http://superuser.com/questions/262809/where-do-i-install-certificates-so-that-wget-and-other-macports-programs-will-fi
