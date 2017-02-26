@@ -8,7 +8,6 @@ https://oceandata.sci.gsfc.nasa.gov/SeaDAS/installer/7.3.2/seadas_7.3.2_macos_in
 #Installing SeaDAS
 
 
-
 #############################################################
 #Installing Python Environment with Anaconda ################
 #############################################################
@@ -21,42 +20,28 @@ Install and/or Update the following python packages by typing the following:
 
 conda  update conda
 conda  update matplotlib
-
-conda  install source-forge/netcdf4 -------># google search for anaconda sourceforge netcdf4                                                                                                   # to get exact syntax
-conda  update  netcdf4   # there should be an Anaconda Cloud link
+# google search for anaconda sourceforge netcdf4 to get exact syntax
+# added by Kevin (try one belows)
+conda install source-forge netcdf4                                                                                                 
+conda install -c source-forge netcdf4 
+conda install -c cistools netcdf4
+conda update  netcdf4   # there should be an Anaconda Cloud link
 
 # copy the conda install syntax to the terminal window. 
 
-conda  install  cistools/pyhdf  ------------->  # google search for cistools  pyhdf, then follow method 
-conda  update pyhdf                                  # above  to get exact syntax         
-
-# pyhdf manual install required
+# google search for cistools  pyhdf, then follow method to get exact syntax  
+conda install cistools pyhdf
 conda install -c cistools pyhdf=0.9.0
+conda install -c source-forge pyhdf=0.9.0 
+conda  update pyhdf                                  
 
-----------------------------------------------------------------------------------
-# http://pysclint.sourceforge.net/pyhdf/install.html
-Install from Source
-
-Requirements:
-
-Python 2.5+
-NumPy 1.0.4+
-Compiler suite e.g.
-HDF4.2r3 libraries (to use their HDF4 binaries, you will also need szip, available from the same page)
-zlib
-libjpeg
-NOTE: OS X users can obtain jpeg libraries here. Once the above packages are installed, you are ready to download and install pyhdf. Binaries and source tarballs can be downloaded from the SourceForge project page.
-
-Go to the pyhdf source directory.
-sudo python setup.py install
-
-------------------------------------------------------------------------------------------------
 
 conda install hdf5
-conda  install  basemap
-conda  install pyproj
+conda install  basemap
+conda install pyproj
 
-conda  install pykdtree    - I think you don’t need this now… (so don’t install)
+# I think you don’t need this now… (so don’t install)
+conda install pykdtree
 
 conda update pip
 
@@ -64,21 +49,8 @@ conda update pip
 conda update --all 
 
 #pyresample 1.1.1
-
- conda install -c conda-forge pyresample=1.3.0 
+conda install -c conda-forge pyresample=1.3.0 
  
-
-Go to pyresample the GitHub site and download zipped directory for version 0.7.13   Look on the GitHub page for “Branches” (to the left side of the page) – these are the older versions you want to choose from.
-
-Follow the GitHub Documentation Install instructions or see: https://pyresample.readthedocs.io/en/latest/installation.html  
-Basically, you will do the following…
-
-cd to pyresample directory
-Test for compatibility using the command:  noestests
-Install pyresample using the command:  python setup.py install
-
-######################################################################################
-
 ##################################################################################
 ##   Setup WGET to Access HTTPS Files
 ###################################################################################
@@ -161,29 +133,9 @@ openssl ciphers -tls -v 'HIGH:!ADH:!MD5:@STRENGTH' | egrep "ECDHE-ECDSA-CHACHA20
 
 ###############################################################################################
 
-
-
-cd
-cd Downloads
-
-wget -cN http://oceandata.sci.gsfc.nasa.gov/ocssw/install_ocssw.py
-wget -cN http://oceandata.sci.gsfc.nasa.gov/ocssw/README
-wget -cN http://oceandata.sci.gsfc.nasa.gov/ocssw/OCSSW_bash.env
-wget -cN http://oceandata.sci.gsfc.nasa.gov/ocssw/bundles.sha256sum
-wget -cN http://oceandata.sci.gsfc.nasa.gov/ocssw/scripts.bundle
-wget -cN http://oceandata.sci.gsfc.nasa.gov/ocssw/common.bundle
-wget -cN http://oceandata.sci.gsfc.nasa.gov/ocssw/bin-linux_64.bundle
-wget -cN http://oceandata.sci.gsfc.nasa.gov/ocssw/bin3-linux_64.bundle
-wget -cN http://oceandata.sci.gsfc.nasa.gov/ocssw/ocrvc.bundle
-wget -cN http://oceandata.sci.gsfc.nasa.gov/ocssw/modis.bundle
-wget -cN http://oceandata.sci.gsfc.nasa.gov/ocssw/modisa.bundle
-wget -cN http://oceandata.sci.gsfc.nasa.gov/ocssw/hmodisa.bundle
-wget -cN http://oceandata.sci.gsfc.nasa.gov/ocssw/seawifs.bundle
-wget -cN http://oceandata.sci.gsfc.nasa.gov/ocssw/modist.bundle
-
-#./install_ocssw.py --install-dir=/home/guitar79/seadas-7.3.2/ocssw --git-branch=v7.3 --local=/home/guitar79/Downloads --terra --auqa
-
-./install_ocssw.py --install-dir=/Applications/seadas-7.3.2/ocssw --git-branch=v7.3 --local=/User/student/Downloads --terra --aqua --avhrr --seawifs --goci
+./install_ocssw.py --install-dir=/Applications/seadas-7.3.2/ocssw --git-branch=v7.3 --terra --aqua --avhrr --seawifs --goci
 
 #Re-run the installer after it finishes the “local” install to get the updates added after the bundles were created:
 sudo ./install_ocssw.py --install-dir=/Applications/seadas-7.3.2/ocssw --git-branch=v7.3 --terra --aqua --avhrr --seawifs --goci
+
+edit your .bashrc
