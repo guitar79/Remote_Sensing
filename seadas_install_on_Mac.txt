@@ -161,6 +161,21 @@ openssl ciphers -tls -v 'HIGH:!ADH:!MD5:@STRENGTH' | egrep "ECDHE-ECDSA-CHACHA20
 cd
 cd Downloads
 
+wget -cN http://oceandata.sci.gsfc.nasa.gov/ocssw/install_ocssw.py
+wget -cN http://oceandata.sci.gsfc.nasa.gov/ocssw/README
+wget -cN http://oceandata.sci.gsfc.nasa.gov/ocssw/OCSSW_bash.env
+wget -cN http://oceandata.sci.gsfc.nasa.gov/ocssw/bundles.sha256sum
+wget -cN http://oceandata.sci.gsfc.nasa.gov/ocssw/scripts.bundle
+wget -cN http://oceandata.sci.gsfc.nasa.gov/ocssw/common.bundle
+wget -cN http://oceandata.sci.gsfc.nasa.gov/ocssw/bin-linux_64.bundle
+wget -cN http://oceandata.sci.gsfc.nasa.gov/ocssw/bin3-linux_64.bundle
+wget -cN http://oceandata.sci.gsfc.nasa.gov/ocssw/ocrvc.bundle
+wget -cN http://oceandata.sci.gsfc.nasa.gov/ocssw/modis.bundle
+wget -cN http://oceandata.sci.gsfc.nasa.gov/ocssw/modisa.bundle
+wget -cN http://oceandata.sci.gsfc.nasa.gov/ocssw/hmodisa.bundle
+wget -cN http://oceandata.sci.gsfc.nasa.gov/ocssw/seawifs.bundle
+wget -cN http://oceandata.sci.gsfc.nasa.gov/ocssw/modist.bundle
+
 #./install_ocssw.py --install-dir=/home/guitar79/seadas-7.3.2/ocssw --git-branch=v7.3 --local=/home/guitar79/Downloads --terra --auqa
 
 ./install_ocssw.py --install-dir=/Application/seadas-7.3.2/ocssw --git-branch=v7.3 --local=/User/student/Downloads --terra --aqua --avhrr --seawifs --goci
