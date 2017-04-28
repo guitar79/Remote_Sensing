@@ -49,8 +49,8 @@ Final_level = '3'
 #  Location of the Level-1 Files:
 #  -------------------------------------------------------------------------
 #
-#l1a_dir = '/Users/byunghyun/Downloads/2003.4.week'
-l1a_dir = '/home/guitar79/OC/SeaWiFS_2003-2006_l2/l1'
+l1a_dir = '/Users/byunghyun/Downloads/2003.4.week'
+
 
 
 
@@ -61,16 +61,15 @@ l1a_dir = '/home/guitar79/OC/SeaWiFS_2003-2006_l2/l1'
 #  -------------------------------------------------------------------------
 #
 #l2_dir = '/rsclass/netcdf_data_2016/seawifs_12_may27'
-#l2_dir = '/Users/byunghyun/Downloads/2003.4.week/l2'
-l2_dir = '/home/guitar79/OC/SeaWiFS_2003-2006_l2/2003/l2'
+l2_dir = '/Users/byunghyun/Downloads/2003.4.week/l2'
+
 	
 
 
 #  Location where L3map Files and PNG Files will be Written:
 #  -------------------------------------------------------------------------
 #
-#binmap_dir = '/Users/byunghyun/Downloads/2003.4.week/l3'
-binmap_dir = '/home/guitar79/OC/SeaWiFS_2003-2006_l2/2003/l3'
+binmap_dir = '/Users/byunghyun/Downloads/2003.4.week/l3'
 
 
 
@@ -79,8 +78,7 @@ binmap_dir = '/home/guitar79/OC/SeaWiFS_2003-2006_l2/2003/l3'
 #  Note: Latitude-Longitude Order MUST BE: 'south, west, north, east'
 #  -------------------------------------------------------------------------
 #
-#latlon = '32.31,126.74,45.00,135.00'           # Lat/Lon Order is S,W,N,E
-latlon = '32.00,126.00,45.00,135.00'           # Lat/Lon Order is S,W,N,E
+latlon = '32.31,126.74,45.00,135.00'           # Lat/Lon Order is S,W,N,E
 
 
 
@@ -163,7 +161,6 @@ space_res = '1'
 # l3bin -Temporal Binning (Averaging Period) daily, weekly, or monthly
 # Options Are: DLY, WKY, or MON  
 # ------------------------------
-#time_period = 'MON'
 time_period = 'WKY'
 
 # Binning or Straight Mapping Statistics Output, on or off. 

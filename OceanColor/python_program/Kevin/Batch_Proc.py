@@ -163,8 +163,7 @@ space_res = '1'
 # l3bin -Temporal Binning (Averaging Period) daily, weekly, or monthly
 # Options Are: DLY, WKY, or MON  
 # ------------------------------
-#time_period = 'MON'
-time_period = 'WKY'
+time_period = 'MON'
 
 # Binning or Straight Mapping Statistics Output, on or off. 
 # This tunes on file output of variance and numer of pixel in binning process
