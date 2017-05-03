@@ -1,13 +1,7 @@
 import urllib.request
 testfile = urllib.request.URLopener()
-#import httplib
-read_file = open('wanted.txt','r')
-raw_lists = read_file.read()
-urls = []
 
-read_splited = raw_lists.split('<')
-for i in range(1,len(read_splited)):
-	urls.append(read_splited[i].split('>')[0])
+urls = [x.replace('\n','') for x in open('wanted.txt','r').readlines()]
 
 print(urls)
 
@@ -23,3 +17,5 @@ while(k < len(urls)):
 		break
 	except:
 		print('Temporary downloading error.')
+
+print('Completed downloading ' + str(len(urls)) + ' file(s).')

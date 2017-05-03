@@ -1,2 +1,2 @@
-<https://oceandata.sci.gsfc.nasa.gov/cgi/getfile/requested_files_25.tar?h=ocdist102&p=/data1/50d0f0708609985b/requested_files>
-<https://oceandata.sci.gsfc.nasa.gov/cgi/getfile/requested_files_1.tar?h=ocdist102&p=/data1/50d0f0708609985b/requested_files>
+https://oceandata.sci.gsfc.nasa.gov/cgi/getfile/requested_files_25.tar?h=ocdist102&p=/data1/50d0f0708609985b/requested_files
+https://oceandata.sci.gsfc.nasa.gov/cgi/getfile/requested_files_1.tar?h=ocdist102&p=/data1/50d0f0708609985b/requested_files
