@@ -230,8 +230,13 @@ pip install netcdf4
 
 # google search for cistools  pyhdf, then follow method to get exact syntax  
 conda install cistools pyhdf
+
+- OK on Ubuntu
 conda install -c cistools pyhdf=0.9.0
+
+-error on ubuntu
 conda install -c source-forge pyhdf=0.9.0 
+
 conda  update pyhdf                                  
 
 
