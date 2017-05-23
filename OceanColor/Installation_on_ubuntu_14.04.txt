@@ -1,0 +1,6 @@
+install on ubuntu 14.04
+
+Download seadas 
+https://seadas.gsfc.nasa.gov/downloads/
+
+apt-get install
