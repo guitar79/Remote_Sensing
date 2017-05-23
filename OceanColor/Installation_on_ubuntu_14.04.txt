@@ -1,6 +1,26 @@
-install on ubuntu 14.04
+#install on ubuntu 14.04
 
-Download seadas 
-https://seadas.gsfc.nasa.gov/downloads/
+#Installing default JRE/JDK
+
+sudo apt-get update
+
+#Then, check if Java is not already installed:
+
+java -version
+
+#If it returns "The program java can be found in the following packages", Java hasn't been installed yet, so execute the following command:
+
+sudo apt-get install default-jre
+
+#This will install the Java Runtime Environment (JRE). If you instead need the Java Development Kit (JDK), which is usually needed to compile Java applications (for example Apache Ant, Apache Maven, Eclipse and IntelliJ IDEA execute the following command:
+
+sudo apt-get install default-jdk
+
+
+#Download seadas 
+#https://seadas.gsfc.nasa.gov/downloads/
+
+sh Downloads/seadas_7.4_linux64_installer.sh
+
 
 apt-get install
