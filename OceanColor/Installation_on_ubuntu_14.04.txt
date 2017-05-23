@@ -205,17 +205,24 @@ Set the required environment variables
 In order to maintain a clean environment we are going to set the required environment variable in the file <path>/OceanColorVirtualEnv/bin/activate adding the following lines:
 
     export SEADASPATH=<path>/seadas-7.1
-    export PATH=PATH:
-
-SEADASPATH/bin
-export PYTHON_PROGRAMS=<path>/python_programs
-export PYTHONPATH=PYTHONPATH:
-
+    export PATH=PATH:SEADASPATH/bin
+    export PYTHON_PROGRAMS=<path>/python_programs
+    export PYTHONPATH=PYTHONPATH:
     PYTHON_PROGRAMS:$PYTHON_PROGRAMS/utilities
     export LOCAL_RESOURCES=$PYTHON_PROGRAMS/local_procesing_resources
     export OCSSWROOT=$SEADASPATH/ocssw
     export OCSSW_DEBUG=0 # set to 1 for debugging
     source $OCSSWROOT/OCSSW_bash.env
+
+    export SEADASPATH=/home/guitar79/seadas-7.4
+    export PATH=PATH:SEADASPATH/bin
+    export PYTHON_PROGRAMS=/home/guitar79/OC/python_programs
+    export PYTHONPATH=PYTHONPATH:PYTHON_PROGRAMS:$PYTHON_PROGRAMS/utilities
+    export LOCAL_RESOURCES=$PYTHON_PROGRAMS/local_procesing_resources
+    export OCSSWROOT=$SEADASPATH/ocssw
+    export OCSSW_DEBUG=0 # set to 1 for debugging
+    source $OCSSWROOT/OCSSW_bash.env
+
 
 Note: you have to change <path> for the location that you choose in your case. On the other hand, if you did not create a python virtual environment, you can add these lines in the file ~/.bashrc
 
