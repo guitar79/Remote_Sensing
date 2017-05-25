@@ -4,6 +4,7 @@
 
     $ sudo apt-get install gcc
     $ sudo apt-get install git
+    $ sudo apt-get install git-all
     $ sudo apt-get install curl
     $ sudo apt-get install wget
 
@@ -72,7 +73,8 @@ Installing SeaDAS
 
     Download and Install SeaDAS:
         Download the appropriate Linux installer from the SeaDAS Downloads page
-        $ sh seadas_<version>_linux64_installer.sh Note: Replace <version> with the version number of the downloaded SeaDAS bundle
+      #$ sh seadas_<version>_linux64_installer.sh Note: Replace <version> with the version number of the downloaded SeaDAS bundle
+      $ sh seadas_7.4_linux64_installer.sh
 
     Install OCSSW software (SeaDAS data processing components)
     This can be done within the GUI or using the command line installer.
