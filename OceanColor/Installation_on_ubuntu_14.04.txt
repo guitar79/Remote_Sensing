@@ -228,3 +228,37 @@ In order to maintain a clean environment we are going to set the required enviro
 
 Note: you have to change <path> for the location that you choose in your case. On the other hand, if you did not create a python virtual environment, you can add these lines in the file ~/.bashrc
 
+
+---------------------------------------------------------------------------------------------
+In short, Git will need to be build from source against the openssl version of libcurl instead of the default gnutls.  The following instructions work on Ubuntu
+14.04 and should also work for any other OS (although may need modification for different package management systems - e.g. yum).
+
+$ sudo apt-get install build-essential libcurl4-openssl-dev
+$ cd ~
+#$ wget https://github.com/git/git/archive/v2.11.0.zip -O git_2.11.0.zip
+#$ unzip git_2.11.0.zip
+
+#master file download and install
+
+$ cd git-2.11.0
+#$ make prefix=~/usr/local all && make prefix=~/usr/local install
+$ make prefix=/usr/local all && make prefix=/usr/local install
+
+NOTE: this locally built version of GIT is installed in ~/usr/local/bin/ and your shell environment PATH should be modified to point to
+the local version of Git. For example, export the PATH variable in bash:
+
+#$ export PATH=~/usr/local/bin:$PATH
+$ export PATH=/usr/local/bin:$PATH
+
+$ which git
+/home/$USERNAME/usr/local/bin/git
+
+$ git --version
+git version 2.11.0
+
+$ git ls-remote
+"https://oceandata.sci.gsfc.nasa.gov/git/obpgpyutils/" HEAD
+be40eb6871cf353024c22bdd8e4b014b91bc414a        HEAD
+
+As you can see, Git is able to connect to OBPG NASA and negotiate the SSL Certificate as well as the TLS Cipher.
+The HEAD request shows the current hash of the git repository. 
