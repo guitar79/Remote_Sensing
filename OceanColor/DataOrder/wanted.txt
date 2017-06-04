@@ -1,2 +1,9 @@
+https://oceandata.sci.gsfc.nasa.gov/cgi/getfile/requested_files_17.tar?h=ocdist102&p=/data1/50d0f0708609985b/requested_files
+https://oceandata.sci.gsfc.nasa.gov/cgi/getfile/requested_files_18.tar?h=ocdist102&p=/data1/50d0f0708609985b/requested_files
+https://oceandata.sci.gsfc.nasa.gov/cgi/getfile/requested_files_19.tar?h=ocdist102&p=/data1/50d0f0708609985b/requested_files
+https://oceandata.sci.gsfc.nasa.gov/cgi/getfile/requested_files_20.tar?h=ocdist102&p=/data1/50d0f0708609985b/requested_files
+https://oceandata.sci.gsfc.nasa.gov/cgi/getfile/requested_files_21.tar?h=ocdist102&p=/data1/50d0f0708609985b/requested_files
+https://oceandata.sci.gsfc.nasa.gov/cgi/getfile/requested_files_23.tar?h=ocdist102&p=/data1/50d0f0708609985b/requested_files
+https://oceandata.sci.gsfc.nasa.gov/cgi/getfile/requested_files_24.tar?h=ocdist102&p=/data1/50d0f0708609985b/requested_files
 https://oceandata.sci.gsfc.nasa.gov/cgi/getfile/requested_files_25.tar?h=ocdist102&p=/data1/50d0f0708609985b/requested_files
 https://oceandata.sci.gsfc.nasa.gov/cgi/getfile/requested_files_1.tar?h=ocdist102&p=/data1/50d0f0708609985b/requested_files

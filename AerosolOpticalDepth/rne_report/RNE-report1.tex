@@ -40,6 +40,7 @@
 % 아래와 같은 command를 만들면 길이가 긴 용어를 간편하게 사용할 수 있습니다. 단, 이미 지정된 함수명들은 새로운 함수명으로 사용할 수 없습니다.
 \newcommand{\gshs}{Gyeonggi Science High School }
 
+
 % 본문 시작
 \begin{document}
 
@@ -63,10 +64,9 @@
 \end{abstractkor}
 
 
-\section{Introduction}
+\section{서론}
 
-최근 우리나라에서 대기 중의 미세먼지의 농도가 높아져 ‘나쁨’ 수준으로 높아지는 경우가 자주 나타남에 따라 호흡기 질환자, 노약자에게 큰 위험으로 다가오고 있으며, 여러 산업 분야에도 치명적인 피해를 주고 있다. 대기 중의 에어로졸은 기류를 타고 계속 이동, 확산되는 특징이 있어 단시간에 광범위한 영역을 관측하거나, 주기적으로 지속적인 관측을 하기 위해서는 인공위성 자료를 활용할 필요가 있다. TERRA, AQUA 위성에 탑재되어 있는 MODIS (Moderate Resolution Imaging Spectroradiometer) 센서를 이용하면 대기 중의 에어로졸을 관측할 수 있음이 알려져 있고, 서울지역에서 PM2.5와 PM10 농도를 추정하는 알고리즘이 연구되어 있다 \cite{aleeleekim200601:leeleekim200601, achujung201601:chujung201601}
-
+최근 우리나라에서 대기 중의 미세먼지의 농도가 높아져 ‘나쁨’ 수준으로 높아지는 경우가 자주 나타남에 따라 호흡기 질환자, 노약자에게 큰 위험으로 다가오고 있으며, 여러 산업 분야에도 치명적인 피해를 주고 있다. 대기 중의 에어로졸은 기류를 타고 계속 이동, 확산되는 특징이 있어 단시간에 광범위한 영역을 관측하거나, 주기적으로 지속적인 관측을 하기 위해서는 인공위성 자료를 활용할 필요가 있다. TERRA, AQUA 위성에 탑재되어 있는 MODIS (Moderate Resolution Imaging Spectroradiometer) 센서를 이용하면 대기 중의 에어로졸을 관측할 수 있음이 알려져 있고, 서울지역에서 PM2.5와 PM10 농도를 추정하는 알고리즘이 연구되어 있다\cite{leeleekim200601}.
 
 \vskip 3pc
 
@@ -116,10 +116,7 @@
 %-----------------------------------------------------
 % Next Section (e.g. Experiment, Linear theory, etc...) 
 %-----------------------------------------------------
-\section{연구 방법}
-연구 본문은 하위 절(subsection, subsubsection, ...)등이 등장하는 경우가 있다. 이 때는 {\textbackslash}subsection\{section name\}, {\textbackslash}subsubsection\{subsubsection name\}을 사용하여 하위 절을 구성하면 된다. 여기서는 수식 작성법, 그림 넣는 법, 표 만드는 법에 대해 살펴본다.
-
-\subsection{연구 기간 및 연구 지역}
+\subsection{연구 동기}
 
 먼저 문장 속에서 수식을 사용하는 경우에는 \$ (수식) \$과 같이 처리하면 된다. 다음과 같이 작성한 후 컴파일을 하면
 \begin{quote}
@@ -129,7 +126,7 @@ pdf 파일에는 다음과 같이 나타난다.
 \begin{quote}
 	운동 에너지는 $(1/2)mv^2$으로 표현된다. 여기서 $m$은 물체의 질량, $v$는 물체의 속력이다.
 \end{quote}
-위의 예시에서 보듯이 문장 속에서 수식을 사용할 때는 한 줄로 입력한다. 즉 분수 형태의 수식은 슬래쉬`/'로 대체하여 표현한다. 줄 간격을 일정하게 유지하기 위함이다.
+위의 예시에서 보듯이 문장 속에서 수식을 사용할 때는 한 줄로 입력한다. 즉 분수 형태의 수식은 슬래쉬`/'로 대체하여 표현한다. 줄 간기격을 일정하게 유지하기 위함이다.
 
 다음은 수식이 문장 밖으로 나와 한 줄을 통째로 차지하는 경우이다. 수식을 작성하는 명령어는 다양하지만, 여기서는 equation, align에 대해서만 다룬다. 먼저 equation의 사용법을 예를 통해 확인해보자. 만약 다음과 같이 입력을 하고
 \begin{quote}
@@ -222,6 +219,100 @@ align 명령어는 각 줄마다 수식 번호가 작성 가능하다. 그래서
 		&\times\exp\left(\frac{-i\,J_y \beta}{\hbar}\right)\exp\left(\frac{-i\,J_z \gamma}{\hbar}\right)\left| j=\frac{1}{2},m\right\rangle.
 	\end{split}
 	\label{eq004}
+\end{equation}
+
+
+\section{연구 방법}
+연구 본문은 하위 절(subsection, subsubsection, ...)등이 등장하는 경우가 있다. 이 때는 {\textbackslash}subsection\{section name\}, {\textbackslash}subsubsection\{subsubsection name\}을 사용하여 하위 절을 구성하면 된다. 여기서는 수식 작성법, 그림 넣는 법, 표 만드는 법에 대해 살펴본다.
+
+\subsection{연구 기간 및 연구 지역}
+
+먼저 문장 속에서 수식을 사용하는 경우에는 \$ (수식) \$과 같이 처리하면 된다. 다음과 같이 작성한 후 컴파일을 하면
+\begin{quote}
+	운동 에너지는 \$(1/2)mv$\wedge$2\$으로 표현된다. 여기서 \$m\$은 물체의 질량, \$v\$ 는 물체의 속력이다.
+\end{quote}
+pdf 파일에는 다음과 같이 나타난다.
+\begin{quote}
+	운동 에너지는 $(1/2)mv^2$으로 표현된다. 여기서 $m$은 물체의 질량, $v$는 물체의 속력이다.
+\end{quote}
+위의 예시에서 보듯이 문장 속에서 수식을 사용할 때는 한 줄로 입력한다. 즉 분수 형태의 수식은 슬래쉬`/'로 대체하여 표현한다. 줄 간격을 일정하게 유지하기 위함이다.
+
+다음은 수식이 문장 밖으로 나와 한 줄을 통째로 차지하는 경우이다. 수식을 작성하는 명령어는 다양하지만, 여기서는 equation, align에 대해서만 다룬다. 먼저 equation의 사용법을 예를 통해 확인해보자. 만약 다음과 같이 입력을 하고
+\begin{quote}
+	{\textbackslash}begin\{equation\}\\
+	{\textbackslash}int\_V 
+	{\textbackslash}nabla{\textbackslash}cdot\{{\textbackslash}rm{\textbackslash}bf
+	F\}dV={\textbackslash}oint\_S \{{\textbackslash}rm{\textbackslash}bf 
+	F\}{\textbackslash}cdot d\{{\textbackslash}rm{\textbackslash}bf A\}. 
+	\newline{\textbackslash}label\{eq001\} \\
+	{\textbackslash}end\{equation\}
+\end{quote}
+컴파일을 하면 다음과 같은 식이 pdf파일에 나타나는 것을 확인할 수 있다.
+
+문장 속에서 수식의 번호(라벨)을 호출하는 경우가 종종 있다. 이 때는 {\textbackslash}ref\{eq001\}을 사용하면 된다. 여기서 eq001은 수식에서 label 명령어 다음에 작성된 문구이다. 수식마다 각기 다른 라벨을 작성해야 하며 논문 저자가 기억하기 편한 것을 사용하면 된다. 서로 다른 수식에 중복된 라벨을 사용하면, 나중에 작성된 라벨의 수식 번호만 호출됨에 유의하라. 사용 예는 다음과 같다.
+\begin{quote}
+	(작성 예) Divergence 이론은 임의의 벡터 필드 \${\textbackslash}rm{\textbackslash}bf F\$가 임의의 폐곡면 외부를 향하는 플럭스의 총량은 \${\textbackslash}nabla{\textbackslash}cdot\{{\textbackslash}rm{\textbackslash}bf F\}\$ 를 폐곡면 내부 부피에 대하여 적분한 것과 같다는 것으로 이를 식으로 표현하면 식 ({\textbackslash}ref\{eq001\}) 과 같다.
+\end{quote}
+\begin{quote}
+	(컴파일 결과) Divergence 이론은 임의의 벡터 필드 $\rm\bf F$가 임의의 폐곡면 외부를 향하는 플럭스의 총량은 $\nabla\cdot{\rm\bf F}$를 폐곡면 내부 부피에 대하여 적분한 것과 같다는 것으로 이를 식으로 표현하면 식 (\ref{eq001})과 같다.
+\end{quote}
+그런데 수식에 번호를 붙일 필요가 없는 경우도 있다. 이 경우에는 수식이 끝나고 equation 명령어를 닫기 전 {\textbackslash}nonumber라고 입력하면 된다.
+\begin{quote}
+	{\textbackslash}begin\{equation\}\\
+	{\textbackslash}pi=3.14159265358979... {\textbackslash}nonumber \\
+	{\textbackslash}end\{equation\}
+\end{quote}
+\begin{equation}
+	\pi=3.14159265358979... \nonumber
+\end{equation}
+지금까지 equation 명령어에 대해 살펴보았는데, equation은 한 줄로 표현 가능한 수식에 사용된다. 그런데 수식 중에는 한 줄로 표현하기 너무 길어서 줄바꿈을 해야 할 필요가 있는 경우, 또는 여러 줄에 걸쳐서 계산 과정을 보여줄 필요가 있는 경우가 있다. 이 때 사용되는 대표적인 명령어가 align이다.
+\begin{quote}
+	{\textbackslash}begin\{align\} \\
+	{\textbackslash}frac\{dE\}\{dt\} 
+	\&={\textbackslash}frac\{{\textbackslash}partial 
+	E\}\{{\textbackslash}partial t\} +{\textbackslash}sum\_i 
+	{\textbackslash}dot\{q\}\_i 
+	{\textbackslash}frac\{{\textbackslash}partial 
+	E\}\linebreak\{{\textbackslash}partial 
+	q\_i\}+{\textbackslash}sum\_i{\textbackslash}ddot\{q\}\_i 
+	{\textbackslash}frac\{{\textbackslash}partial 
+	E\}\{{\textbackslash}partial {\textbackslash}dot\{q\}\_i\} 
+	{\textbackslash}notag {\textbackslash}{\textbackslash} \\
+	\&={\textbackslash}sum\_j {\textbackslash}dot\{q\}\_j 
+	{\textbackslash}sum\_k {\textbackslash}left( A\_\{jk\} q\_k +M\_\{jk\} 
+	{\textbackslash}ddot\{q\}\_k {\textbackslash}right) . 
+	{\textbackslash}label\{eq002\}\\
+	{\textbackslash}end\{align\}
+\end{quote}
+\TeX\ 파일에 위와 같이 입력하고 컴파일을 해보면 다음과 같은 식을 얻는다.
+\TeX\ 파일에 입력된 등호 앞의 \& 기호는 줄 맞춤 표시이다. 즉, 첫 번째 줄의 \&와 두 번째 줄의 \&가 같은 수직선상에 위치한다는 의미이다. 첫 번째 줄에서는 수식 번호를 넣고 싶지 않아서 {\textbackslash}notag라는 명령어를 사용하였다. equation 명령어에서 사용된 {\textbackslash}nonumber와 같은 기능을 한다. 줄을 넘길 때는 {\textbackslash}{\textbackslash}를 사용한다. 이번에는 줄이 너무 길어서 여러 줄에 나누어 표현하는 식의 예를 살펴보자. (P. H. Yoon의 2006 논문에서 참고하였음 \cite{Yoon06})
+\begin{quote}
+	{\textbackslash}begin\{align\}\\
+	{\textbackslash}delta P\_\{ij\}$\hat{\ }$a 
+	=\&{\textbackslash}frac\{i\}\{B\_0\} 
+	{\textbackslash}frac\{{\textbackslash}Omega\_a\}\{{\textbackslash}omega-\{
+	{\textbackslash}rm{\textbackslash}bf k\}{\textbackslash}cdot\{ 
+	{\textbackslash}rm\linebreak{\textbackslash}bf v\}\_a \} 
+	{\textbackslash}left( m\_a n {\textbackslash}epsilon\_\{ikl\} 
+	v\_k$\hat{\ }$a B\_l {\textbackslash}delta v\_j$\hat{\ }$a +m\_a n 
+	{\textbackslash}epsilon\_\{jkl\} v\_k$\hat{\ }$a B\_l 
+	{\textbackslash}delta\_i$\hat{\ }$a {\textbackslash}right. 
+	{\textbackslash}nonumber {\textbackslash}{\textbackslash} \\
+	\& {\textbackslash}left. + {\textbackslash}epsilon\_\{ikl\} {\textbackslash}delta B\_l P\_\{jk\}$\hat{\ }$a + {\textbackslash}epsilon\_\{jkl\} {\textbackslash}delta B\_l P\_\{ik\}$\hat{\ }$a + {\textbackslash}epsilon\_\{ikl\} B\_l {\textbackslash}delta P\_\{jk\}$\hat{\ }$a + {\textbackslash}epsilon\_\{jkl\} B\_l {\textbackslash}delta P\_\{ik\}$\hat{\ }$a {\textbackslash}right) . {\textbackslash}label\{eq003\} \\
+	{\textbackslash}end\{align\}
+\end{quote}
+위와 같이 작성한 후 컴파일하면 pdf 파일에 다음과 같은 식이 등장한다.
+
+보는 바와 같이 괄호 내부가 너무 길어서 줄바꿈을 했더니 첫 줄에서 괄호가 열리고 다음 줄에서 괄호가 닫힌다. \TeX 에서는 괄호를 연 뒤, 닫지 않고 줄바꿈을 하면 에러가 발생한다. 따라서 첫 줄에서 `{\textbackslash}left('로 괄호를 연 뒤, `{\textbackslash}right.'으로 괄호를 닫았다. 이 표시는 실제로 pdf 파일에는 등장하지 않지만 에러 방지를 위해 넣어준 것이다. 두 번째 줄에서도 마찬가지로 `{\textbackslash}left.'으로 (pdf 파일에는 보이지 않는) 괄호를 연 뒤 `{\textbackslash}right)'으로 괄호를 닫아주었다.
+
+
+align 명령어는 각 줄마다 수식 번호가 작성 가능하다. 그래서 식 (\ref{eq003})과 같이 하나의 식을 두 줄에 나누어 표현할 때 (첫 번째 줄에는 notag 명령어를 넣어 수식 번호를 제거하고) 두 번째 줄에 수식 번호가 등장하도록 하였다. 그런데 이처럼 하나의 식을 여러 줄에 걸쳐 표현할 때는 수식 번호의 상하 위치가 수식 전체의 중앙에 등장하는 편이 더 보기 좋다. 이 경우에는 equation 명령어 내부에 다시 split 명령어를 사용하면 된다. 다음 식 (\ref{eq004})는 이 방법을 사용한 것으로서, 자세한 사용법을 알고 싶으면 \TeX\ 파일에 어떤 식으로 작성되었는지 살펴보기 바란다.
+
+\begin{equation}
+	\begin{split}
+		\mathcal{D}_{m'm}^{(1/2)} (\alpha,\beta,\gamma)=&\left\langle j=\frac{1}{2},m'\right|\exp\left(\frac{-i\,J_z \alpha}{\hbar}\right)\\
+		&\times\exp\left(\frac{-i\,J_y \beta}{\hbar}\right)\exp\left(\frac{-i\,J_z \gamma}{\hbar}\right)\left| j=\frac{1}{2},m\right\rangle.
+	\end{split}
 \end{equation}
 
 
@@ -347,7 +438,6 @@ Table \ref{table01}과 같은 표를 얻게 된다.
 \end{quote}
 Table \ref{table01}과 같은 표를 얻게 된다.
 \begin{table}[t]
-	\caption{Physical parameters.} \label{table01}
 	\begin{center}
 		\begin{tabular}{c|c|c}
 			\hline
@@ -412,7 +502,6 @@ pdf 파일에는 다음과 같이 나타난다.
 \end{quote}
 컴파일을 하면 다음과 같은 식이 pdf파일에 나타나는 것을 확인할 수 있다.
 \begin{equation}
-\int_V \nabla\cdot{\rm\bf F} dV = \oint_S {\rm\bf F}\cdot d{\rm\bf A}. \label{eq001}
 \end{equation}
 문장 속에서 수식의 번호(라벨)을 호출하는 경우가 종종 있다. 이 때는 {\textbackslash}ref\{eq001\}을 사용하면 된다. 여기서 eq001은 수식에서 label 명령어 다음에 작성된 문구이다. 수식마다 각기 다른 라벨을 작성해야 하며 논문 저자가 기억하기 편한 것을 사용하면 된다. 서로 다른 수식에 중복된 라벨을 사용하면, 나중에 작성된 라벨의 수식 번호만 호출됨에 유의하라. 사용 예는 다음과 같다.
 \begin{quote}
@@ -452,7 +541,6 @@ pdf 파일에는 다음과 같이 나타난다.
 \TeX\ 파일에 위와 같이 입력하고 컴파일을 해보면 다음과 같은 식을 얻는다.
 \begin{align}
 \frac{dE}{dt} &=\frac{\partial E}{\partial t} +\sum_i \dot{q}_i \frac{\partial E}{\partial q_i} +\sum_i \ddot{q}_i \frac{\partial E}{\partial\dot{q}_i} \notag\\
-&=\sum_j \dot{q}_j \sum_k \left( A_{jk} q_k +M_{jk} \ddot{q}_k \right). \label{eq002}
 \end{align}
 \TeX\ 파일에 입력된 등호 앞의 \& 기호는 줄 맞춤 표시이다. 즉, 첫 번째 줄의 \&와 두 번째 줄의 \&가 같은 수직선상에 위치한다는 의미이다. 첫 번째 줄에서는 수식 번호를 넣고 싶지 않아서 {\textbackslash}notag라는 명령어를 사용하였다. equation 명령어에서 사용된 {\textbackslash}nonumber와 같은 기능을 한다. 줄을 넘길 때는 {\textbackslash}{\textbackslash}를 사용한다. 이번에는 줄이 너무 길어서 여러 줄에 나누어 표현하는 식의 예를 살펴보자. (P. H. Yoon의 2006 논문에서 참고하였음 \cite{Yoon06})
 \begin{quote}
@@ -474,39 +562,9 @@ pdf 파일에는 다음과 같이 나타난다.
 
 보는 바와 같이 괄호 내부가 너무 길어서 줄바꿈을 했더니 첫 줄에서 괄호가 열리고 다음 줄에서 괄호가 닫힌다. \TeX 에서는 괄호를 연 뒤, 닫지 않고 줄바꿈을 하면 에러가 발생한다. 따라서 첫 줄에서 `{\textbackslash}left('로 괄호를 연 뒤, `{\textbackslash}right.'으로 괄호를 닫았다. 이 표시는 실제로 pdf 파일에는 등장하지 않지만 에러 방지를 위해 넣어준 것이다. 두 번째 줄에서도 마찬가지로 `{\textbackslash}left.'으로 (pdf 파일에는 보이지 않는) 괄호를 연 뒤 `{\textbackslash}right)'으로 괄호를 닫아주었다.
 
-\begin{align}
-	\delta P_{ij}^a =&\frac{i}{B_0} \frac{\Omega_a}{\omega-{\rm\bf 
-	k}\cdot{\rm\bf v}_a} \left( m_a n \epsilon_{ikl} v_k^a B_l \delta v_j^a 
-	+m_a n \epsilon_{jkl} v_k^a B_l \delta v_i^a \right. \nonumber\\
-	&\left. +\epsilon_{ikl} \delta B_l P_{jk}^a +\epsilon_{jkl} \delta B_l 
-	P_{ik}^a +\epsilon_{ikl} B_l \delta P_{jk}^a +\epsilon_{jkl} B_l \delta 
-	P_{ik}^a \right) . \label{eq003}
-\end{align}
-
-align 명령어는 각 줄마다 수식 번호가 작성 가능하다. 그래서 식 (\ref{eq003})과 같이 하나의 식을 두 줄에 나누어 표현할 때 (첫 번째 줄에는 notag 명령어를 넣어 수식 번호를 제거하고) 두 번째 줄에 수식 번호가 등장하도록 하였다. 그런데 이처럼 하나의 식을 여러 줄에 걸쳐 표현할 때는 수식 번호의 상하 위치가 수식 전체의 중앙에 등장하는 편이 더 보기 좋다. 이 경우에는 equation 명령어 내부에 다시 split 명령어를 사용하면 된다. 다음 식 (\ref{eq004})는 이 방법을 사용한 것으로서, 자세한 사용법을 알고 싶으면 \TeX\ 파일에 어떤 식으로 작성되었는지 살펴보기 바란다.
-
-\begin{equation}
-\begin{split}
-\mathcal{D}_{m'm}^{(1/2)} (\alpha,\beta,\gamma)=&\left\langle j=\frac{1}{2},m'\right|\exp\left(\frac{-i\,J_z \alpha}{\hbar}\right)\\
-&\times\exp\left(\frac{-i\,J_y \beta}{\hbar}\right)\exp\left(\frac{-i\,J_z \gamma}{\hbar}\right)\left| j=\frac{1}{2},m\right\rangle.
-\end{split}
-\label{eq004}
-\end{equation}
-
-\TeX 에서 입력되는 수식은 기호와 명령어의 명칭 및 사용법을 알아야 작성할 수 있다. 사용법이 잘 정리된 문서들을 인터넷에서 쉽게 구할 수 있으므로 스스로 해결할 수 있을 것으로 생각된다.
-
 
 \subsection{Figures}
 논문에 들어가는 그림은 크게 사진과 그래프로 나눌 수 있다. 먼저 사진파일(확장자 jpg, png)을 넣는 방법은 다음과 같다.
-\begin{quote}
-	{\textbackslash}begin\{figure\}[t]\\
-	{\textbackslash}begin\{center\}\\
-	{\textbackslash}includegraphics[width=6cm]\{Figure File\}\\
-	{\textbackslash}caption\{This is caption\}\\
-	{\textbackslash}label\{Figure label\}\\
-	{\textbackslash}end\{center\}\\
-	{\textbackslash}end\{figure\}
-\end{quote}
 {\textbackslash}begin\{figure\} 옆의 [t]라는 옵션은 그림을 페이지의 맨 위에 넣는다는 것이다. 옵션의 종류는 t, b, h, p가 있다. 각각의 의미는, t (그림을 페이지 맨 위에 위치), b (그림을 페이지 맨 아래에 위치), h (그림을 본문에 작성한 위치에 넣기. 단 충분한 공간이 없는 경우에는 다음 페이지에 들어감), p (한 페이지에 그림만 등장함). 논문에 등장하는 그림들은 되도록 페이지 위에 위치할 수 있도록 하자. 즉 [t] 옵션을 설정한다. 단, section title이 맨 위에 위치하는 경우에는 [b] 옵션을 사용하여 그림을 페이지 바닥에 위치시킨다.
 
 includegraphics다음의 [ ] 안에는 크기를 지정할 수 있는 옵션을 넣어주고 \{ \} 안에는 파일이름(확장자 포함)을 넣어준다. 이때 그림 파일은 \LaTeX\ 파일과 같은 폴더에 들어 있어야 한다. 다음의 caption에는 그림 설명을 넣어준다. 마지막으로 label에는 수식에서와 마찬가지로 이 그림의 라벨을 지정하여 본문 속에서 ref 명령어를 사용하여 그림을 언급하기 편하도록 한다.
@@ -514,13 +572,6 @@ includegraphics다음의 [ ] 안에는 크기를 지정할 수 있는 옵션을 
 이번에는 그래프를 넣는 방법을 알아보자. 그래프는 사진과 약간 차이가 있는데 그것은---엑셀 등 그래프 작성 툴에서 그래프를 그린 후 그래프를 그림파일로 저장할 때, 확장자 pdf, eps 등 postscript 벡터 이미지로 저장을 해야 한다는 것이다. 그 외에는 사진 이미지 삽입과 동일하다. 그림 \ref{Fig01}은 엑셀에서 작성한 그래프를 pdf로 저장한 것과 png로 저장한 것을 비교하기 위한 예이다. 위쪽 그림은 png 확장자, 아래 그림은 pdf 확장자의 파일을 삽입한 것이다. 컴파일 후 생성된 논문 pdf파일을 확대한 상태로 그래프를 살펴보면 그 차이를 알 수 있다.
 
 
-\begin{figure}[t]
-	\begin{center}
-		%\includegraphics[width=7.2cm]{Figure01.png}\\
-		%\includegraphics[width=9cm]{Figure01.pdf}
-		\caption{A linearly damped beat wave.} \label{Fig01}
-	\end{center}
-\end{figure}
 
 논문에 그림을 넣을 때 주의사항은 다음과 같다.
 \begin{itemize}
@@ -539,25 +590,10 @@ includegraphics다음의 [ ] 안에는 크기를 지정할 수 있는 옵션을 
 \LaTeX 에서 표를 넣는 방법은 i)엑셀 등 외부 프로그램에서 작성된 표를 pdf 그림파일로 변환하여 그림처럼 includegraphics 명령어로 넣는 방법 (물론 이 경우 {\textbackslash}begin\{figure\} 대신 {\textbackslash}begin\{table\}를 사용해야 함), ii)\LaTeX 에서 표를 직접 제작하는 방법의 두 가지가 있다. \LaTeX 에서는 명령어에 의해 표의 구획과 정렬, 선의 종류를 표현하므로 초보자에게는 다소 어려운 작업이 될 수 있다. 아마도 \LaTeX 를 사용함에 있어서 가장 불편한 점은 표 제작 작업일 것이다. 다행히 인터넷에 `latex', `table' 등의 조합으로 검색하면 마우스로 제작한 표를 \LaTeX 로 변환해주는 웹사이트들을 찾을 수 있다.
 
 다음은 간단한 표의 예이다. 다음과 같이 입력을 하고 컴파일을 하면,
-\begin{quote}
-	{\textbackslash}begin\{table\}[t]\\
-	{\textbackslash}caption\{Physical parameters.\}\\
-	{\textbackslash}label\{table01\}\\
-	{\textbackslash}begin\{center\}\\
-	{\textbackslash}begin\{tabular\}\{c $|$ c $|$ c\}\\
-	{\textbackslash}hline\\
-	\& symbol \& value {\textbackslash}{\textbackslash} {\textbackslash}hline \\
-	Earth's mass \& \$M\_E\$ \& \$6.0{\textbackslash}times 10$\hat{\ }$\{24\} \{{\textbackslash}rm kg\}\$ {\textbackslash}{\textbackslash}\\
-	Earth's radius \& \$R\_E\$ \& \$6.4{\textbackslash}times 10$\hat{\ }$6 \{{\textbackslash}rm m\}\$ {\textbackslash}{\textbackslash}\\
-	Gravitational constant \& \$G\$ \& \$6.67{\textbackslash}times 10$\hat{\ }$\{-11\} \{{\textbackslash}rm N m$\hat{\ }$2 /kg$\hat{\ }$2\}\$ {\textbackslash}{\textbackslash} \\
-	{\textbackslash}hline\\
-	{\textbackslash}end\{tabular\}\\
-	{\textbackslash}end\{center\}\\
-	{\textbackslash}end\{table\}
-\end{quote}
+
 Table \ref{table01}과 같은 표를 얻게 된다.
 \begin{table}[t]
-	\caption{Physical parameters.} \label{table01}
+
 	\begin{center}
 		\begin{tabular}{c|c|c}
 			\hline
@@ -606,25 +642,10 @@ Table \ref{table01}과 같은 표를 얻게 된다.
 \LaTeX 에서 표를 넣는 방법은 i)엑셀 등 외부 프로그램에서 작성된 표를 pdf 그림파일로 변환하여 그림처럼 includegraphics 명령어로 넣는 방법 (물론 이 경우 {\textbackslash}begin\{figure\} 대신 {\textbackslash}begin\{table\}를 사용해야 함), ii)\LaTeX 에서 표를 직접 제작하는 방법의 두 가지가 있다. \LaTeX 에서는 명령어에 의해 표의 구획과 정렬, 선의 종류를 표현하므로 초보자에게는 다소 어려운 작업이 될 수 있다. 아마도 \LaTeX 를 사용함에 있어서 가장 불편한 점은 표 제작 작업일 것이다. 다행히 인터넷에 `latex', `table' 등의 조합으로 검색하면 마우스로 제작한 표를 \LaTeX 로 변환해주는 웹사이트들을 찾을 수 있다.
 
 다음은 간단한 표의 예이다. 다음과 같이 입력을 하고 컴파일을 하면,
-\begin{quote}
-	{\textbackslash}begin\{table\}[t]\\
-	{\textbackslash}caption\{Physical parameters.\}\\
-	{\textbackslash}label\{table01\}\\
-	{\textbackslash}begin\{center\}\\
-	{\textbackslash}begin\{tabular\}\{c $|$ c $|$ c\}\\
-	{\textbackslash}hline\\
-	\& symbol \& value {\textbackslash}{\textbackslash} {\textbackslash}hline \\
-	Earth's mass \& \$M\_E\$ \& \$6.0{\textbackslash}times 10$\hat{\ }$\{24\} \{{\textbackslash}rm kg\}\$ {\textbackslash}{\textbackslash}\\
-	Earth's radius \& \$R\_E\$ \& \$6.4{\textbackslash}times 10$\hat{\ }$6 \{{\textbackslash}rm m\}\$ {\textbackslash}{\textbackslash}\\
-	Gravitational constant \& \$G\$ \& \$6.67{\textbackslash}times 10$\hat{\ }$\{-11\} \{{\textbackslash}rm N m$\hat{\ }$2 /kg$\hat{\ }$2\}\$ {\textbackslash}{\textbackslash} \\
-	{\textbackslash}hline\\
-	{\textbackslash}end\{tabular\}\\
-	{\textbackslash}end\{center\}\\
-	{\textbackslash}end\{table\}
-\end{quote}
+
 Table \ref{table01}과 같은 표를 얻게 된다.
 \begin{table}[t]
-	\caption{Physical parameters.} \label{table01}
+
 	\begin{center}
 		\begin{tabular}{c|c|c}
 			\hline
@@ -662,30 +683,14 @@ Table \ref{table01}과 같은 표를 얻게 된다.
 % Conclusion
 %-----------------------------------------------------
 
-\subsection{결론}
+\subsection{제언}
 
 \LaTeX 에서 표를 넣는 방법은 i)엑셀 등 외부 프로그램에서 작성된 표를 pdf 그림파일로 변환하여 그림처럼 includegraphics 명령어로 넣는 방법 (물론 이 경우 {\textbackslash}begin\{figure\} 대신 {\textbackslash}begin\{table\}를 사용해야 함), ii)\LaTeX 에서 표를 직접 제작하는 방법의 두 가지가 있다. \LaTeX 에서는 명령어에 의해 표의 구획과 정렬, 선의 종류를 표현하므로 초보자에게는 다소 어려운 작업이 될 수 있다. 아마도 \LaTeX 를 사용함에 있어서 가장 불편한 점은 표 제작 작업일 것이다. 다행히 인터넷에 `latex', `table' 등의 조합으로 검색하면 마우스로 제작한 표를 \LaTeX 로 변환해주는 웹사이트들을 찾을 수 있다.
 
 다음은 간단한 표의 예이다. 다음과 같이 입력을 하고 컴파일을 하면,
-\begin{quote}
-	{\textbackslash}begin\{table\}[t]\\
-	{\textbackslash}caption\{Physical parameters.\}\\
-	{\textbackslash}label\{table01\}\\
-	{\textbackslash}begin\{center\}\\
-	{\textbackslash}begin\{tabular\}\{c $|$ c $|$ c\}\\
-	{\textbackslash}hline\\
-	\& symbol \& value {\textbackslash}{\textbackslash} {\textbackslash}hline \\
-	Earth's mass \& \$M\_E\$ \& \$6.0{\textbackslash}times 10$\hat{\ }$\{24\} \{{\textbackslash}rm kg\}\$ {\textbackslash}{\textbackslash}\\
-	Earth's radius \& \$R\_E\$ \& \$6.4{\textbackslash}times 10$\hat{\ }$6 \{{\textbackslash}rm m\}\$ {\textbackslash}{\textbackslash}\\
-	Gravitational constant \& \$G\$ \& \$6.67{\textbackslash}times 10$\hat{\ }$\{-11\} \{{\textbackslash}rm N m$\hat{\ }$2 /kg$\hat{\ }$2\}\$ {\textbackslash}{\textbackslash} \\
-	{\textbackslash}hline\\
-	{\textbackslash}end\{tabular\}\\
-	{\textbackslash}end\{center\}\\
-	{\textbackslash}end\{table\}
-\end{quote}
+
 Table \ref{table01}과 같은 표를 얻게 된다.
 \begin{table}[t]
-	\caption{Physical parameters.} \label{table01}
 	\begin{center}
 		\begin{tabular}{c|c|c}
 			\hline
@@ -705,10 +710,7 @@ Table \ref{table01}과 같은 표를 얻게 된다.
 	\begin{quote}
 		\$ G=\textbackslash SI\{6.67e-11\}\{\textbackslash newton\textbackslash square\textbackslash meter\textbackslash per\textbackslash square\textbackslash kilogram\} \$
 	\end{quote}
-	
-	\begin{quote}
-		$ G=\SI{6.67e-11}{\newton\square\meter\per\square\kilogram} $
-	\end{quote}
+
 \end{center}
 
 원래는 `\textbackslash per'을 사용하면 그 뒤의 차원들은 음수 차원으로 나타내어지고 보통 우리가 말하는 `per'은 나타나지 않는데,
@@ -723,43 +725,20 @@ Table \ref{table01}과 같은 표를 얻게 된다.
 % Conclusion
 %-----------------------------------------------------
 
-\section{연구의 제한점}
+\subsection{연구의 제한점}
+
+\LaTeX 에서 표를 넣는 방법은 i)엑셀 등 외부 프로그램에서 작성된 표를 pdf 그림파일로 변환하여 그림처럼 includegraphics 명령어로 넣는 방법 (물론 이 경우 {\textbackslash}begin\{figure\} 대신 {\textbackslash}begin\{table\}를 사용해야 함), ii)\LaTeX 에서 표를 직접 제작하는 방법의 두 가지가 있다. \LaTeX 에서는 명령어에 의해 표의 구획과 정렬, 선의 종류를 표현하므로 초보자에게는 다소 어려운 작업이 될 수 있다. 아마도 \LaTeX 를 사용함에 있어서 가장 불편한 점은 표 제작 작업일 것이다. 다행히 인터넷에 `latex', `table' 등의 조합으로 검색하면 마우스로 제작한 표를 \LaTeX 로 변환해주는 웹사이트들을 찾을 수 있다.
+
+다음은 간단한 표의 예이다. 다음과 같이 입력을 하고 컴파일을 하면,
+
+section{연구의 제한점}
 (당신이 v1.1 이상의 gshs-report.cls 를 사용하고 있다면 이 글을 읽을 필요는 없다.)
 
 보통 우리가 tex으로 보고서를 사용할 때에는 (경기과학고 텍사용자 협회 내에서는) section-subsection-subsubsection 체제를 사용하며, 책(book 클래스 사용)을 집필하는 것이 아니라면 chapter 를 쓸 일이 없다. 이것은 보통 우리가 report 클래스를 사용하기 때문일 것이다. 그에 반해, v0.12 이전의 gshs-report.cls 에서는 표 \ref{correlation}와 같이 한 칸씩 앞당겨 사용하도록 설정되어 있어 여러 문제점들을 불러왔다.
 
-\begin{table}[h]
-	\caption{보통의 tex 문서 명령어와 gshs-report.cls을 사용하는 문서의 명령어 대응관계.}
-	\label{correlation}
-	\begin{center}
-		\begin{tabular}{|c|c|}
-			\hline
-			보통의 tex 문서에서의 명령어 & gshs-report.cls 문서에서의 명령어 \\
-			\hline
-			\textbackslash section & \textbackslash chapter \\
-			\hline
-			\textbackslash subsection & \textbackslash section \\
-			\hline
-			\textbackslash subsubsection & \textbackslash subsection \\
-			\hline
-			\textbackslash paragraph & \textbackslash subsubsection \\
-			\hline
-			\textbackslash subparagraph & \textbackslash paragraph \\
-			\hline
-		\end{tabular}
-	\end{center}
-\end{table}
-
 subsection{이러한 설정이 갖는 문제점들}
 이로부터 발생하는 문제점들은 다음과 같다.
-\begin{itemize}
-\item 처음 \LaTeX 을 사용하는 사람의 경우 혼동을 유발함
-\item chapter가 새로 넘어갈 때마다 그림/표의 numbering이 초기화됨 \\
-이것은 \verb+\+usepackage\{chngcntr\}, \verb+\+counterwithout\{figure\}\{chapter\} 을 통해 임시로 해결되었었다.
-\item Theorem numbering이 이상하게 됨.(1.0.1,  1.0.2, ...) \\
-https://github.com/gshslatexintro/gshslatexintro/issues/7 참조.
-\item 보고서 tex 파일을 다른 곳에 사용해야 할 경우 호환성이 떨어진다. (ex. 휴먼테크논문대회 양식, 우수R\&E 공동발표회 양식) 즉, chapter를 section으로, section을 subsection으로, subsection을 subsubsection으로 각각 바꾸어 주어야 한다. 물론 이는 Ctrl+H를 통해 쉽게 할 수 있지만... 번거로우니까.
-\end{itemize}
+
 
 subsection{왜 이런 설정을 하셨을까?}
 가능한 이유들은 다음과 같다.
@@ -770,49 +749,8 @@ subsection{왜 이런 설정을 하셨을까?}
 
 subsection{v1.1 이후로는 제대로 된다.}
 Theorem labeling이 이상하게 되던 문제:
-\begin{definition}
-	Lorem Ipsum
-\end{definition}
 
-section 이 넘어가도 definition counter는 잘 유지된다. 정의 \ref{def_test}\을 참조바람.
-
-
-section{Test Section}
-
-Title : LARGE, Bold face
-
-subsection{Test Subsection}
-
-Title : Large, Bold face
-
-\begin{definition} \label{def_test}
-	Content.
-\end{definition}
-
-`정의' 명령어의 번호 매기기가 잘 수행된다. 정의 \ref{def_test}\과 같이. % 자동 조사 명령어
-
-subsubsection{Test Subsubsection}
-
-Title : large, Bold face
-
-앞서 언급하였듯이 subsubsection, paragraph 와 같은 하위 절은 사용을 자제하는 것이 좋다.
-
-
-\section{References}
-
-
-\begin{thebibliography}{99}
-	
-	\bibitem[{이동하와 이권호와 김영준; 2006}]{aleeleekim200601:leeleekim200601} 이동하, 이권호, 김영준. (2006). ``동북아 지역 주요 에어로졸 타입 분류를 위한 MODIS 위성 자료의 응용 연구'', 대한환경공학회 학술발표논문집, 687-691.3
-	\bibitem[{추교황과 정명재; 2016}]{achujung201601:chujung201601} 추교황, 정명재. (2016). ``MODIS센서를 활용한 서울지역에서의 미세먼지(PM2.5와 PM10)농도 추정 알고리즘 연구''. 한국기상학회 학술대회 논문집, 259-260.
-	\bibitem[{이동하와 이권호와 김영준; 2006}]{bleeleekim200601:leeleekim200601} 이동하, 이권호, 김영준. (2006). ``동북아 지역 주요 에어로졸 타입 분류를 위한 MODIS 위성 자료의 응용 연구'', 대한환경공학회 학술발표논문집, 687-691.3
-	\bibitem{airkorea} http://www.airkorea.or.kr
-	\bibitem{ladsweb} https://ladsweb.modaps.eosdis.nasa.gov/
-	\bibitem{leekimchukimlee_0201} 이현경, 김금란, Allen Chu, 김미향, 이윤아 (2002). ``MODIS를 이용한 aerosol optical depth 산출. 대기'', 12(1), 558-560.
-	
-\end{thebibliography}
-
-%\bibliography{RNE-report.bib}
-%\bibliographystyle{plain}
+\bibliography{RNE-report1}
+\bibliographystyle{plain}
 
 \end{document}
