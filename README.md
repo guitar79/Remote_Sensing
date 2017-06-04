@@ -1,3 +1,5 @@
 # Ocean color is from Dr. Lab. MSU (GSHS ORP program)
+./OceanColor
 
-# Start MODIS (R&E)
+# Start Aerosol Optical Depth (R&E)
+./AOE
