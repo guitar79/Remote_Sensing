@@ -1,2 +1,3 @@
-# these are from Dr. Lab. MSU.
-# GSHS ORP program 
+# Ocean color is from Dr. Lab. MSU (GSHS ORP program)
+
+# Start MODIS (R&E)
