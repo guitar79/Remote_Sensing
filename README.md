@@ -2,4 +2,4 @@
 ./OceanColor
 
 # Start Aerosol Optical Depth (R&E)
-./AOE
+./AOD (Aerosol Optical Depth)
