@@ -44,11 +44,6 @@
 \definecolor{lightgray}{gray}{0.95}
 
 
-%% SI Unit 을 사용하기 위한 설정. \SI{1}{\meter\per\sec}는 m/s 와 같이 나옴.
-\usepackage[per-mode=symbol]{siunitx}
-\sisetup{inter-unit-product = \cdot}
-%http://tex.stackexchange.com/questions/59032/how-to-format-si-units
-
 %% 옵션 설정을 위한 boolean 변수선언
 \newif\if@isDoctor
 \newif\if@isKorean
@@ -88,7 +83,7 @@
 %수학 패키지
 \RequirePackage{amsmath}
 \RequirePackage{graphicx,xcolor}
-\usepackage{amssymb}
+%\usepackage{amssymb}
 \usepackage{amsthm}
 
 %% for compatability to HLaTeX
@@ -401,10 +396,10 @@
 %% \href{mailto:email@site.com}{email@site.com}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%\pagestyle{fancy}
-%\setlength\parindent{0.1in}
-%\setlength\parskip{0.1in}
-%\setlength\headheight{15pt}
+\pagestyle{fancy}
+\setlength\parindent{0.1in}
+\setlength\parskip{0.1in}
+\setlength\headheight{15pt}
 
 %%%%%%%%%%% HEADER / FOOTER %%%%%%%%%%%
 %\rhead{\workingDate}
@@ -414,7 +409,8 @@
 \lfoot{\textsc{\institution}}
 %\lfoot{\textsc{\studentName}}
 \cfoot{\textit{창의연구 R\&E Research Note.}}
-\rfoot{\textsc{\studentName}}
+%\rfoot{\textsc{\studentName}}
+\rfoot{Page \thepage}
 
 
 %%%%%%%%%%% NEW COMMANDS %%%%%%%%%%%%%%
