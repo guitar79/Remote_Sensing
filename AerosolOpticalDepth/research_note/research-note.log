@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2017.3.16)  5 JUN 2017 18:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2017.3.16)  5 JUN 2017 18:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1754,7 +1754,7 @@ Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
 ))
 \c@definition=\count280
 
-(./research-note.aux (./sub/abstract.aux))
+(./research-note.aux (./sub/cover.aux))
 \openout1 = `research-note.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
@@ -2065,23 +2065,25 @@ LaTeX Font Info:    Font shape `LUC/nanummj/m/it' in size <10> not available
 08.
  [1
 
- <./img/logo.png>] (./research-note.lot)
+ <./img/logo.png>]
+No file research-note.lot.
 \tf@lot=\write8
 \openout8 = `research-note.lot'.
 
 File: ./img/logo.png Graphic file (type png)
- <use ./img/logo.png>
+<use ./img/logo.png>
 Package pdftex.def Info: ./img/logo.png used on input line 114.
 (pdftex.def)             Requested size: 35.85422pt x 34.90103pt.
  [2
 
 
-] (./research-note.lof)
+]
+No file research-note.lof.
 \tf@lof=\write9
 \openout9 = `research-note.lof'.
 
 File: ./img/logo.png Graphic file (type png)
- <use ./img/logo.png>
+<use ./img/logo.png>
 Package pdftex.def Info: ./img/logo.png used on input line 120.
 (pdftex.def)             Requested size: 35.85422pt x 34.90103pt.
  [3
@@ -2094,10 +2096,10 @@ LaTeX Font Info:    Try loading font information for TS1+ptm on input line 49.
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 69.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 66.
 File: ./img/logo.png Graphic file (type png)
  <use ./img/logo.png>
-Package pdftex.def Info: ./img/logo.png used on input line 103.
+Package pdftex.def Info: ./img/logo.png used on input line 100.
 (pdftex.def)             Requested size: 35.85422pt x 34.90103pt.
 
 [1
@@ -2107,20 +2109,47 @@ Package pdftex.def Info: ./img/logo.png used on input line 103.
 ]
 File: ./img/logo.png Graphic file (type png)
  <use ./img/logo.png>
-Package pdftex.def Info: ./img/logo.png used on input line 106.
+Package pdftex.def Info: ./img/logo.png used on input line 103.
 (pdftex.def)             Requested size: 35.85422pt x 34.90103pt.
  [2]
-File: ./img/logo.png Graphic file (type png)
- <use ./img/logo.png>
-Package pdftex.def Info: ./img/logo.png used on input line 128.
-(pdftex.def)             Requested size: 35.85422pt x 34.90103pt.
- [3]
-File: ./img/logo.png Graphic file (type png)
- <use ./img/logo.png>
-Package pdftex.def Info: ./img/logo.png used on input line 151.
-(pdftex.def)             Requested size: 35.85422pt x 34.90103pt.
+! Missing } inserted.
+<inserted text> 
+                }
+l.111 \end{itemize}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
 
-[4]
+! Missing } inserted.
+<inserted text> 
+                }
+l.111 \end{itemize}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+File: ./img/logo.png Graphic file (type png)
+<use ./img/logo.png>
+Package pdftex.def Info: ./img/logo.png used on input line 129.
+(pdftex.def)             Requested size: 35.85422pt x 34.90103pt.
+ [3] (./research-note.bbl
+File: ./img/logo.png Graphic file (type png)
+ <use ./img/logo.png>
+Package pdftex.def Info: ./img/logo.png used on input line 1.
+(pdftex.def)             Requested size: 35.85422pt x 34.90103pt.
+ [4])
+File: ./img/logo.png Graphic file (type png)
+
+<use ./img/logo.png>
+Package pdftex.def Info: ./img/logo.png used on input line 153.
+(pdftex.def)             Requested size: 35.85422pt x 34.90103pt.
+ [5]
 
 Package catoptions Warning: Undeclared options found in \XExecuteOptions
 (catoptions)                (family,option,value): 
@@ -2139,11 +2168,11 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 29523 strings out of 493013
- 540175 string characters out of 6136993
- 631185 words of memory out of 5000000
- 32406 multiletter control sequences out of 15000+600000
- 77454 words of font info for 155 fonts, out of 8000000 for 9000
+ 29526 strings out of 493013
+ 540207 string characters out of 6136993
+ 631191 words of memory out of 5000000
+ 32409 multiletter control sequences out of 15000+600000
+ 77748 words of font info for 156 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  69i,15n,86p,10392b,466s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}{c:/texlive/2016/texm
@@ -2165,54 +2194,55 @@ pe1/public/nanumtype1/nanummjbc2.pfb><c:/texlive/2016/texmf-dist/fonts/type1/pu
 blic/nanumtype1/nanummjbc5.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/n
 anumtype1/nanummjbc6.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/nanumty
 pe1/nanummjbc7.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/nanumtype1/na
-nummjbce.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/nanumtype1/nanummjb
-d1.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/nanumtype1/nanummjbd4.pfb
-><c:/texlive/2016/texmf-dist/fonts/type1/public/nanumtype1/nanummjbd5.pfb><c:/t
-exlive/2016/texmf-dist/fonts/type1/public/nanumtype1/nanummjbd6.pfb><c:/texlive
-/2016/texmf-dist/fonts/type1/public/nanumtype1/nanummjmac.pfb><c:/texlive/2016/
-texmf-dist/fonts/type1/public/nanumtype1/nanummjmad.pfb><c:/texlive/2016/texmf-
+nummjbcc.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/nanumtype1/nanummjb
+ce.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/nanumtype1/nanummjbd1.pfb
+><c:/texlive/2016/texmf-dist/fonts/type1/public/nanumtype1/nanummjbd4.pfb><c:/t
+exlive/2016/texmf-dist/fonts/type1/public/nanumtype1/nanummjbd5.pfb><c:/texlive
+/2016/texmf-dist/fonts/type1/public/nanumtype1/nanummjbd6.pfb><c:/texlive/2016/
+texmf-dist/fonts/type1/public/nanumtype1/nanummjmac.pfb><c:/texlive/2016/texmf-
 dist/fonts/type1/public/nanumtype1/nanummjmad.pfb><c:/texlive/2016/texmf-dist/f
-onts/type1/public/nanumtype1/nanummjmae.pfb><c:/texlive/2016/texmf-dist/fonts/t
+onts/type1/public/nanumtype1/nanummjmad.pfb><c:/texlive/2016/texmf-dist/fonts/t
 ype1/public/nanumtype1/nanummjmae.pfb><c:/texlive/2016/texmf-dist/fonts/type1/p
-ublic/nanumtype1/nanummjmb0.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/
-nanumtype1/nanummjmb1.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/nanumt
-ype1/nanummjmb2.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/nanumtype1/n
-anummjmb3.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/nanumtype1/nanummj
-mb4.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb8.pf
-b><c:/texlive/2016/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb9.pfb><c:/
-texlive/2016/texmf-dist/fonts/type1/public/nanumtype1/nanummjmba.pfb><c:/texliv
-e/2016/texmf-dist/fonts/type1/public/nanumtype1/nanummjmbb.pfb><c:/texlive/2016
-/texmf-dist/fonts/type1/public/nanumtype1/nanummjmbc.pfb><c:/texlive/2016/texmf
+ublic/nanumtype1/nanummjmae.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/
+nanumtype1/nanummjmb0.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/nanumt
+ype1/nanummjmb1.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/nanumtype1/n
+anummjmb2.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/nanumtype1/nanummj
+mb3.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb4.pf
+b><c:/texlive/2016/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb8.pfb><c:/
+texlive/2016/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb9.pfb><c:/texliv
+e/2016/texmf-dist/fonts/type1/public/nanumtype1/nanummjmba.pfb><c:/texlive/2016
+/texmf-dist/fonts/type1/public/nanumtype1/nanummjmbb.pfb><c:/texlive/2016/texmf
 -dist/fonts/type1/public/nanumtype1/nanummjmbc.pfb><c:/texlive/2016/texmf-dist/
-fonts/type1/public/nanumtype1/nanummjmbd.pfb><c:/texlive/2016/texmf-dist/fonts/
-type1/public/nanumtype1/nanummjmc0.pfb><c:/texlive/2016/texmf-dist/fonts/type1/
+fonts/type1/public/nanumtype1/nanummjmbc.pfb><c:/texlive/2016/texmf-dist/fonts/
+type1/public/nanumtype1/nanummjmbd.pfb><c:/texlive/2016/texmf-dist/fonts/type1/
 public/nanumtype1/nanummjmc0.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public
-/nanumtype1/nanummjmc1.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/nanum
-type1/nanummjmc2.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/nanumtype1/
-nanummjmc5.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/nanumtype1/nanumm
-jmc5.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc6.p
+/nanumtype1/nanummjmc0.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/nanum
+type1/nanummjmc1.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/nanumtype1/
+nanummjmc2.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/nanumtype1/nanumm
+jmc5.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc5.p
 fb><c:/texlive/2016/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc6.pfb><c:
-/texlive/2016/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc7.pfb><c:/texli
+/texlive/2016/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc6.pfb><c:/texli
 ve/2016/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc7.pfb><c:/texlive/201
-6/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc8.pfb><c:/texlive/2016/texm
-f-dist/fonts/type1/public/nanumtype1/nanummjmc9.pfb><c:/texlive/2016/texmf-dist
+6/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc7.pfb><c:/texlive/2016/texm
+f-dist/fonts/type1/public/nanumtype1/nanummjmc8.pfb><c:/texlive/2016/texmf-dist
 /fonts/type1/public/nanumtype1/nanummjmc9.pfb><c:/texlive/2016/texmf-dist/fonts
-/type1/public/nanumtype1/nanummjmcc.pfb><c:/texlive/2016/texmf-dist/fonts/type1
+/type1/public/nanumtype1/nanummjmc9.pfb><c:/texlive/2016/texmf-dist/fonts/type1
 /public/nanumtype1/nanummjmcc.pfb><c:/texlive/2016/texmf-dist/fonts/type1/publi
-c/nanumtype1/nanummjmcd.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/nanu
-mtype1/nanummjmd1.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/nanumtype1
-/nanummjmd3.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/nanumtype1/nanum
-mjmd5.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd6.
+c/nanumtype1/nanummjmcc.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/nanu
+mtype1/nanummjmcd.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/nanumtype1
+/nanummjmd1.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/nanumtype1/nanum
+mjmd3.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd5.
 pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd6.pfb><c
-:/texlive/2016/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd7.pfb><c:/texl
-ive/2016/texmf-dist/fonts/type1/public/cm-super/sfsx1000.pfb><c:/texlive/2016/t
-exmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2016/texmf-dist/fonts/ty
-pe1/urw/times/utmr8a.pfb><c:/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr
-i8a.pfb>
-Output written on research-note.pdf (8 pages, 2670316 bytes).
+:/texlive/2016/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd6.pfb><c:/texl
+ive/2016/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd7.pfb><c:/texlive/20
+16/texmf-dist/fonts/type1/public/cm-super/sfsx1000.pfb><c:/texlive/2016/texmf-d
+ist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2016/texmf-dist/fonts/type1/ur
+w/times/utmr8a.pfb><c:/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pf
+b>
+Output written on research-note.pdf (9 pages, 2716877 bytes).
 PDF statistics:
- 329 PDF objects out of 1000 (max. 8388607)
- 229 compressed objects within 3 object streams
+ 336 PDF objects out of 1000 (max. 8388607)
+ 234 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
  102 words of extra memory for PDF output out of 10000 (max. 10000000)
 
