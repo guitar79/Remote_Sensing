@@ -91,7 +91,7 @@
 %% 본문이 영어로 되어있는지 한글로 되어있는지 설정
 \newcommand{\@korean}{korean}
 \newcommand{\@english}{english}
-\newcommand{\@textlang}{}                    % 텍스트 기본언어 변수선언
+\newcommand{\@textlang}{korean}                    % 텍스트 기본언어 변수선언
 \if@isKorean                                 % korean 옵션이 지정되어 있으면
 \let\@textlang\@korean                  % 텍스트 기본언어는 한글
 \else                                        % english 옵션이 지정되어 있으면
@@ -307,7 +307,7 @@
 %\titleformat{command}[shape]{format}{label}{sep}{before-code}{after-code}
 
 \titleformat{\section}[hang]
-{\LARGE\bfseries}{\Roman{section}.}{1em}{}{}
+{\LARGE\bfseries}{\arabic{section}.}{1em}{}{}
 \titleformat{\subsection}[hang]
 {\Large\bfseries}{\arabic{section}.\arabic{subsection}}{1em}{}{}
 \titleformat{\subsubsection}[hang]

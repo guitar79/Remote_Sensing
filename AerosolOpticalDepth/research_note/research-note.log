@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2017.3.16)  5 JUN 2017 11:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2017.3.16)  5 JUN 2017 18:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1476,7 +1476,19 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-) (c:/texlive/2016/texmf-dist/tex/latex/pstricks/pstricks.sty
+) (c:/texlive/2016/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2015/03/04 v2.20.2
+\thm@style=\toks38
+\thm@bodyfont=\toks39
+\thm@headfont=\toks40
+\thm@notefont=\toks41
+\thm@headpunct=\toks42
+\thm@preskip=\skip62
+\thm@postskip=\skip63
+\thm@headsep=\skip64
+\dth@everypar=\toks43
+)
+(c:/texlive/2016/texmf-dist/tex/latex/pstricks/pstricks.sty
 Package: pstricks 2015/11/14 v0.62 LaTeX wrapper for `PSTricks' (RN,HV)
 
 
@@ -1512,7 +1524,7 @@ File: pst-xkey.tex 2005/11/25 v1.6 PSTricks specialization of xkeyval (HA)
 \pstFP@times=\count181
 )
 (c:/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
-\pgfutil@everybye=\toks38
+\pgfutil@everybye=\toks44
 \pgfutil@tempdima=\dimen279
 \pgfutil@tempdimb=\dimen280
 
@@ -1522,8 +1534,8 @@ File: pst-xkey.tex 2005/11/25 v1.6 PSTricks specialization of xkeyval (HA)
 (c:/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
 \pgffor@iter=\dimen281
 \pgffor@skip=\dimen282
-\pgffor@stack=\toks39
-\pgffor@toks=\toks40
+\pgffor@stack=\toks45
+\pgffor@toks=\toks46
 )
 \psLoopIndex=\count182
 
@@ -1552,7 +1564,7 @@ File: pst-xkey.tex 2005/11/25 v1.6 PSTricks specialization of xkeyval (HA)
 \pst@cnto=\count191
 \pst@cntp=\count192
 \@zero=\count193
-\pst@toks=\toks41
+\pst@toks=\toks47
 (c:/texlive/2016/texmf-dist/tex/generic/pstricks/pstricks.con)
 \psunit=\dimen293
 \psxunit=\dimen294
@@ -1561,12 +1573,12 @@ File: pst-xkey.tex 2005/11/25 v1.6 PSTricks specialization of xkeyval (HA)
 \pslinewidth=\dimen296
 \psk@startLW=\dimen297
 \psk@endLW=\dimen298
-\pst@customdefs=\toks42
+\pst@customdefs=\toks48
 \pslinearc=\dimen299
 \pst@symbolStep=\dimen300
 \pst@symbolWidth=\dimen301
 \pst@symbolLinewidth=\dimen302
-\everypsbox=\toks43
+\everypsbox=\toks49
 \psframesep=\dimen303
 \pslabelsep=\dimen304
 \sh@wgridXunit=\dimen305
@@ -1591,8 +1603,8 @@ File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \c@subparagraph=\count266
 \c@figure=\count267
 \c@table=\count268
-\abovecaptionskip=\skip62
-\belowcaptionskip=\skip63
+\abovecaptionskip=\skip65
+\belowcaptionskip=\skip66
 \bibindent=\dimen308
 )
 (c:/texlive/2016/texmf-dist/tex/latex/tools/indentfirst.sty
@@ -1608,9 +1620,9 @@ Package: tabu 2011/02/26 v2.8 - flexible LaTeX tabulars (FC)
 Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
 \col@sep=\dimen309
 \extrarowheight=\dimen310
-\NC@list=\toks44
-\extratabsurround=\skip64
-\backup@length=\skip65
+\NC@list=\toks50
+\extratabsurround=\skip67
+\backup@length=\skip68
 )
 \c@taburow=\count269
 \tabu@nbcols=\count270
@@ -1627,13 +1639,13 @@ Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
 \abovetabulinesep=\dimen317
 \belowtabulinesep=\dimen318
 \tabustrutrule=\dimen319
-\tabu@thebody=\toks45
-\tabu@footnotes=\toks46
+\tabu@thebody=\toks51
+\tabu@footnotes=\toks52
 \tabu@box=\box62
 \tabu@arstrutbox=\box63
 \tabu@hleads=\box64
 \tabu@vleads=\box65
-\tabu@cellskip=\skip66
+\tabu@cellskip=\skip69
 )
 (c:/texlive/2016/texmf-dist/tex/latex/cjk-ko/kotex.sty
 Package: kotex 2015/04/19 v1.6 Korean TeX (ko.TeX)
@@ -1698,40 +1710,12 @@ File: lucenc.dfu 2007/09/05 UTF-8 support for dhucs
    defining Unicode char U+FF65 (decimal 65381)
 )
 \@josa=\count276
-\josatoks=\toks47
+\josatoks=\toks53
 
 (c:/texlive/2016/texmf-dist/tex/latex/cjk-ko/kolabels-utf.sty
 Package: kolabels-utf 2015/03/20 v1.5 UTF-8 Hangul item labels
 )))
-
-! LaTeX Error: Option clash for package xcolor.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.78 \usepackage
-                {amsthm}
-The package 'xcolor' has already been loaded with options:
-  [usenames,dvipsnames].
-There has now been an attempt to load it with no options. 
-Adding the global options:
-  'usenames,dvipsnames'
-to your \documentclass declaration may fix this. 
-
-(c:/texlive/2016/texmf-dist/tex/latex/amscls/amsthm.sty
-Package: amsthm 2015/03/04 v2.20.2
-\thm@style=\toks48
-\thm@bodyfont=\toks49
-\thm@headfont=\toks50
-\thm@notefont=\toks51
-\thm@headpunct=\toks52
-\thm@preskip=\skip67
-\thm@postskip=\skip68
-\thm@headsep=\skip69
-\dth@everypar=\toks53
-)
-LaTeX Info: Redefining \textgt on input line 82.
+LaTeX Info: Redefining \textgt on input line 74.
 
 (c:/texlive/2016/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
@@ -1768,137 +1752,119 @@ Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
 \titlewidthlast=\dimen332
 \titlewidthfirst=\dimen333
 ))
-! Undefined control sequence.
-l.15 \researchTitle
-                   {MODIS 자료를 이용한 에어로졸의 광학적 두�...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+\c@definition=\count280
 
+(./research-note.aux (./sub/abstract.aux))
+\openout1 = `research-note.aux'.
 
-! LaTeX Error: Missing \begin{document}.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 42.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 42.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.15 \researchTitle{M
-                     ODIS 자료를 이용한 에어로졸의 광학적 두�...
-
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+(c:/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for LUC/nanummj/m/n on input line 42.
 LaTeX Font Info:    Try loading font information for LUC+nanummj on input line 
-15.
+42.
+
 (c:/texlive/2016/texmf-dist/tex/latex/nanumtype1/lucnanummj.fd
 File: lucnanummj.fd 2013/02/12 v0.1 Nanum Myeongjo font definitions
 )
-(./research-note.aux)
-\openout1 = `research-note.aux'.
-
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 35.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 35.
- (c:/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
-File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for LUC/nanummj/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Try loading font information for T1+ptm on input line 35.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 42.
 
 (c:/texlive/2016/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
 (c:/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count280
+\scratchcounter=\count281
 \scratchdimen=\dimen334
 \scratchbox=\box67
-\nofMPsegments=\count281
-\nofMParguments=\count282
+\nofMPsegments=\count282
+\nofMParguments=\count283
 \everyMPshowfont=\toks56
-\MPscratchCnt=\count283
+\MPscratchCnt=\count284
 \MPscratchDim=\dimen335
-\MPnumerator=\count284
-\makeMPintoPDFobject=\count285
+\MPnumerator=\count285
+\makeMPintoPDFobject=\count286
 \everyMPtoPDFconversion=\toks57
 ) (c:/texlive/2016/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2016/05/21 v0.22 Utility functions of pdfTeX for LuaTeX (HO
@@ -1963,158 +1929,196 @@ ABD: EveryShipout initializing macros
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
+\openout2 = `sub/cover.aux'.
 
-LaTeX Font Warning: Font shape `LUC/nanummj/m/sc' undefined
-(Font)              using `LUC/nanummj/m/n' instead on input line 38.
+(./sub/cover.tex
+LaTeX Font Info:    Try loading font information for T1+cmss on input line 1.
+ (c:/texlive/2016/texmf-dist/tex/latex/base/t1cmss.fd
+File: t1cmss.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Try loading font information for LUC+nanumgt on input line 
+1.
 
-<./img/logo.png, id=29, 545.6385pt x 531.1845pt>
-File: ./img/logo.png Graphic file (type png)
- <use ./img/logo.png>
-Package pdftex.def Info: ./img/logo.png used on input line 38.
-(pdftex.def)             Requested size: 35.85422pt x 34.90103pt.
-LaTeX Font Info:    Font shape `LUC/nanummj/m/it' in size <10> not available
-(Font)              Font shape `LUC/nanummj/m/sl' tried instead on input line 3
-8.
-
+(c:/texlive/2016/texmf-dist/tex/latex/nanumtype1/lucnanumgt.fd
+File: lucnanumgt.fd 2013/02/12 v0.1 Nanum Gothic font definitions
+)
 ! Undefined control sequence.
-<argument> ...or , \@thirdAuthor , \@fourthAuthor 
-                                                  
-l.38 	\section
-              *{May, 31, 2016}
+\makecover ...t}{21pt}\selectfont \@researchTitle 
+                                                  \\[21pt] \fontsize {21pt}{...
+l.1 \makecover
+              
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[1
-Non-PDF special ignored!
-Non-PDF special ignored!
-Non-PDF special ignored!
-Non-PDF special ignored!{c:/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdft
-ex.map}
-Non-PDF special ignored!
-Non-PDF special ignored!
-Non-PDF special ignored!
 
- <./img/logo.png>]
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 38.
+! LaTeX Error: There's no line here to end.
 
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \relax 
-l.43 			\hspace{3}
-                  
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \makecover
+              
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
-LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 44
-.
+LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 1.
+
 (c:/texlive/2016/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 44
-.
+LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 1.
+
 
 (c:/texlive/2016/texmf-dist/tex/latex/psnfss/omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 44
-.
+LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 1.
+
 
 (c:/texlive/2016/texmf-dist/tex/latex/psnfss/omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 44
-.
+LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 1.
+
 
 (c:/texlive/2016/texmf-dist/tex/latex/psnfss/omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 44.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 1.
 
 (c:/texlive/2016/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 44.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 44.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 44.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
 
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \relax 
-l.51 	\hspace{3}
-                \=\kill
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
+! Undefined control sequence.
+<argument> \@type 
+                  
+l.1 \makecover
+              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 55.
-LaTeX Font Info:    Try loading font information for TS1+ptm on input line 83.
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <18> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 1.
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 1.
+[1
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+
+
+{c:/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+
+! LaTeX Error: Command \makecover already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.66 }
+      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <17.28> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 102.
+(./research-note.toc
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 1.
+)
+\tf@toc=\write7
+\openout7 = `research-note.toc'.
+
+
+
+LaTeX Font Warning: Font shape `LUC/nanummj/m/sc' undefined
+(Font)              using `LUC/nanummj/m/n' instead on input line 108.
+
+<./img/logo.png, id=66, 545.6385pt x 531.1845pt>
+File: ./img/logo.png Graphic file (type png)
+ <use ./img/logo.png>
+Package pdftex.def Info: ./img/logo.png used on input line 108.
+(pdftex.def)             Requested size: 35.85422pt x 34.90103pt.
+LaTeX Font Info:    Font shape `LUC/nanummj/m/it' in size <10> not available
+(Font)              Font shape `LUC/nanummj/m/sl' tried instead on input line 1
+08.
+ [1
+
+ <./img/logo.png>] (./research-note.lot)
+\tf@lot=\write8
+\openout8 = `research-note.lot'.
+
+File: ./img/logo.png Graphic file (type png)
+ <use ./img/logo.png>
+Package pdftex.def Info: ./img/logo.png used on input line 114.
+(pdftex.def)             Requested size: 35.85422pt x 34.90103pt.
+ [2
+
+
+] (./research-note.lof)
+\tf@lof=\write9
+\openout9 = `research-note.lof'.
+
+File: ./img/logo.png Graphic file (type png)
+ <use ./img/logo.png>
+Package pdftex.def Info: ./img/logo.png used on input line 120.
+(pdftex.def)             Requested size: 35.85422pt x 34.90103pt.
+ [3
+
+
+])
+LaTeX Font Info:    Try loading font information for TS1+ptm on input line 49.
+
 (c:/texlive/2016/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 69.
 File: ./img/logo.png Graphic file (type png)
  <use ./img/logo.png>
-Package pdftex.def Info: ./img/logo.png used on input line 92.
+Package pdftex.def Info: ./img/logo.png used on input line 103.
 (pdftex.def)             Requested size: 35.85422pt x 34.90103pt.
 
-! Undefined control sequence.
-<argument> ...or , \@thirdAuthor , \@fourthAuthor 
-                                                  
-l.92 \section
-             *{May, 31, 2016}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+[1
 
-[2]
+
+
+]
 File: ./img/logo.png Graphic file (type png)
  <use ./img/logo.png>
-Package pdftex.def Info: ./img/logo.png used on input line 116.
+Package pdftex.def Info: ./img/logo.png used on input line 106.
 (pdftex.def)             Requested size: 35.85422pt x 34.90103pt.
-
-! Undefined control sequence.
-<argument> ...or , \@thirdAuthor , \@fourthAuthor 
-                                                  
-l.116 \section
-              *{May, 31, 2016}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[3]
+ [2]
 File: ./img/logo.png Graphic file (type png)
  <use ./img/logo.png>
-Package pdftex.def Info: ./img/logo.png used on input line 139.
+Package pdftex.def Info: ./img/logo.png used on input line 128.
 (pdftex.def)             Requested size: 35.85422pt x 34.90103pt.
-
-! Undefined control sequence.
-<argument> ...or , \@thirdAuthor , \@fourthAuthor 
-                                                  
-l.139 \end{document}
-                    
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+ [3]
+File: ./img/logo.png Graphic file (type png)
+ <use ./img/logo.png>
+Package pdftex.def Info: ./img/logo.png used on input line 151.
+(pdftex.def)             Requested size: 35.85422pt x 34.90103pt.
 
 [4]
 
@@ -2129,75 +2133,86 @@ Package catoptions Warning: Undefined options
 otex.sty,nonfrench,. 
 (catoptions)                Default action already taken in each case .
 
-(./research-note.aux)
+(./research-note.aux (./sub/cover.aux))
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 29385 strings out of 493013
- 537573 string characters out of 6136993
- 630771 words of memory out of 5000000
- 32307 multiletter control sequences out of 15000+600000
- 49238 words of font info for 103 fonts, out of 8000000 for 9000
+ 29523 strings out of 493013
+ 540175 string characters out of 6136993
+ 631185 words of memory out of 5000000
+ 32406 multiletter control sequences out of 15000+600000
+ 77454 words of font info for 155 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 69i,15n,86p,10392b,407s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 69i,15n,86p,10392b,466s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}{c:/texlive/2016/texm
 f-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}<c:/texlive/2016/texmf-dist/fon
-ts/type1/public/nanumtype1/nanummjbac.pfb><c:/texlive/2016/texmf-dist/fonts/typ
-e1/public/nanumtype1/nanummjbad.pfb><c:/texlive/2016/texmf-dist/fonts/type1/pub
-lic/nanumtype1/nanummjbb2.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/na
-numtype1/nanummjbb9.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/nanumtyp
-e1/nanummjbbd.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/nanumtype1/nan
-ummjbc1.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/nanumtype1/nanummjbc
-2.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/nanumtype1/nanummjbc5.pfb>
-<c:/texlive/2016/texmf-dist/fonts/type1/public/nanumtype1/nanummjbc7.pfb><c:/te
-xlive/2016/texmf-dist/fonts/type1/public/nanumtype1/nanummjbce.pfb><c:/texlive/
-2016/texmf-dist/fonts/type1/public/nanumtype1/nanummjbd1.pfb><c:/texlive/2016/t
-exmf-dist/fonts/type1/public/nanumtype1/nanummjbd4.pfb><c:/texlive/2016/texmf-d
-ist/fonts/type1/public/nanumtype1/nanummjbd5.pfb><c:/texlive/2016/texmf-dist/fo
-nts/type1/public/nanumtype1/nanummjbd6.pfb><c:/texlive/2016/texmf-dist/fonts/ty
-pe1/public/nanumtype1/nanummjmac.pfb><c:/texlive/2016/texmf-dist/fonts/type1/pu
-blic/nanumtype1/nanummjmad.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/n
-anumtype1/nanummjmad.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/nanumty
-pe1/nanummjmae.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/nanumtype1/na
-nummjmae.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/nanumtype1/nanummjm
-b0.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb1.pfb
-><c:/texlive/2016/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb2.pfb><c:/t
-exlive/2016/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb4.pfb><c:/texlive
-/2016/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb8.pfb><c:/texlive/2016/
-texmf-dist/fonts/type1/public/nanumtype1/nanummjmb9.pfb><c:/texlive/2016/texmf-
-dist/fonts/type1/public/nanumtype1/nanummjmba.pfb><c:/texlive/2016/texmf-dist/f
-onts/type1/public/nanumtype1/nanummjmbb.pfb><c:/texlive/2016/texmf-dist/fonts/t
-ype1/public/nanumtype1/nanummjmbc.pfb><c:/texlive/2016/texmf-dist/fonts/type1/p
-ublic/nanumtype1/nanummjmbc.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/
-nanumtype1/nanummjmbd.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/nanumt
-ype1/nanummjmc0.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/nanumtype1/n
-anummjmc1.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/nanumtype1/nanummj
-mc2.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc5.pf
-b><c:/texlive/2016/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc5.pfb><c:/
-texlive/2016/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc6.pfb><c:/texliv
-e/2016/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc6.pfb><c:/texlive/2016
-/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc7.pfb><c:/texlive/2016/texmf
--dist/fonts/type1/public/nanumtype1/nanummjmc7.pfb><c:/texlive/2016/texmf-dist/
-fonts/type1/public/nanumtype1/nanummjmc8.pfb><c:/texlive/2016/texmf-dist/fonts/
-type1/public/nanumtype1/nanummjmc8.pfb><c:/texlive/2016/texmf-dist/fonts/type1/
-public/nanumtype1/nanummjmcc.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public
-/nanumtype1/nanummjmcc.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/nanum
-type1/nanummjmcd.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/nanumtype1/
-nanummjmce.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/nanumtype1/nanumm
-jmd1.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd3.p
-fb><c:/texlive/2016/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd5.pfb><c:
-/texlive/2016/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd6.pfb><c:/texli
-ve/2016/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd6.pfb><c:/texlive/201
-6/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd7.pfb><c:/texlive/2016/texm
-f-dist/fonts/type1/public/cm-super/sfrm1000.pfb><c:/texlive/2016/texmf-dist/fon
-ts/type1/urw/times/utmb8a.pfb><c:/texlive/2016/texmf-dist/fonts/type1/urw/times
-/utmr8a.pfb><c:/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on research-note.pdf (4 pages, 2388965 bytes).
+ts/type1/public/nanumtype1/nanumgtbad.pfb><c:/texlive/2016/texmf-dist/fonts/typ
+e1/public/nanumtype1/nanumgtbb1.pfb><c:/texlive/2016/texmf-dist/fonts/type1/pub
+lic/nanumtype1/nanumgtbc5.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/na
+numtype1/nanumgtbc7.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/nanumtyp
+e1/nanumgtbcc.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/nanumtype1/nan
+umgtbd2.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/nanumtype1/nanummjba
+c.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/nanumtype1/nanummjbad.pfb>
+<c:/texlive/2016/texmf-dist/fonts/type1/public/nanumtype1/nanummjbae.pfb><c:/te
+xlive/2016/texmf-dist/fonts/type1/public/nanumtype1/nanummjbb2.pfb><c:/texlive/
+2016/texmf-dist/fonts/type1/public/nanumtype1/nanummjbb4.pfb><c:/texlive/2016/t
+exmf-dist/fonts/type1/public/nanumtype1/nanummjbb9.pfb><c:/texlive/2016/texmf-d
+ist/fonts/type1/public/nanumtype1/nanummjbbd.pfb><c:/texlive/2016/texmf-dist/fo
+nts/type1/public/nanumtype1/nanummjbc1.pfb><c:/texlive/2016/texmf-dist/fonts/ty
+pe1/public/nanumtype1/nanummjbc2.pfb><c:/texlive/2016/texmf-dist/fonts/type1/pu
+blic/nanumtype1/nanummjbc5.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/n
+anumtype1/nanummjbc6.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/nanumty
+pe1/nanummjbc7.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/nanumtype1/na
+nummjbce.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/nanumtype1/nanummjb
+d1.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/nanumtype1/nanummjbd4.pfb
+><c:/texlive/2016/texmf-dist/fonts/type1/public/nanumtype1/nanummjbd5.pfb><c:/t
+exlive/2016/texmf-dist/fonts/type1/public/nanumtype1/nanummjbd6.pfb><c:/texlive
+/2016/texmf-dist/fonts/type1/public/nanumtype1/nanummjmac.pfb><c:/texlive/2016/
+texmf-dist/fonts/type1/public/nanumtype1/nanummjmad.pfb><c:/texlive/2016/texmf-
+dist/fonts/type1/public/nanumtype1/nanummjmad.pfb><c:/texlive/2016/texmf-dist/f
+onts/type1/public/nanumtype1/nanummjmae.pfb><c:/texlive/2016/texmf-dist/fonts/t
+ype1/public/nanumtype1/nanummjmae.pfb><c:/texlive/2016/texmf-dist/fonts/type1/p
+ublic/nanumtype1/nanummjmb0.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/
+nanumtype1/nanummjmb1.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/nanumt
+ype1/nanummjmb2.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/nanumtype1/n
+anummjmb3.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/nanumtype1/nanummj
+mb4.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb8.pf
+b><c:/texlive/2016/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb9.pfb><c:/
+texlive/2016/texmf-dist/fonts/type1/public/nanumtype1/nanummjmba.pfb><c:/texliv
+e/2016/texmf-dist/fonts/type1/public/nanumtype1/nanummjmbb.pfb><c:/texlive/2016
+/texmf-dist/fonts/type1/public/nanumtype1/nanummjmbc.pfb><c:/texlive/2016/texmf
+-dist/fonts/type1/public/nanumtype1/nanummjmbc.pfb><c:/texlive/2016/texmf-dist/
+fonts/type1/public/nanumtype1/nanummjmbd.pfb><c:/texlive/2016/texmf-dist/fonts/
+type1/public/nanumtype1/nanummjmc0.pfb><c:/texlive/2016/texmf-dist/fonts/type1/
+public/nanumtype1/nanummjmc0.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public
+/nanumtype1/nanummjmc1.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/nanum
+type1/nanummjmc2.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/nanumtype1/
+nanummjmc5.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/nanumtype1/nanumm
+jmc5.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc6.p
+fb><c:/texlive/2016/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc6.pfb><c:
+/texlive/2016/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc7.pfb><c:/texli
+ve/2016/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc7.pfb><c:/texlive/201
+6/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc8.pfb><c:/texlive/2016/texm
+f-dist/fonts/type1/public/nanumtype1/nanummjmc9.pfb><c:/texlive/2016/texmf-dist
+/fonts/type1/public/nanumtype1/nanummjmc9.pfb><c:/texlive/2016/texmf-dist/fonts
+/type1/public/nanumtype1/nanummjmcc.pfb><c:/texlive/2016/texmf-dist/fonts/type1
+/public/nanumtype1/nanummjmcc.pfb><c:/texlive/2016/texmf-dist/fonts/type1/publi
+c/nanumtype1/nanummjmcd.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/nanu
+mtype1/nanummjmd1.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/nanumtype1
+/nanummjmd3.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/nanumtype1/nanum
+mjmd5.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd6.
+pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd6.pfb><c
+:/texlive/2016/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd7.pfb><c:/texl
+ive/2016/texmf-dist/fonts/type1/public/cm-super/sfsx1000.pfb><c:/texlive/2016/t
+exmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2016/texmf-dist/fonts/ty
+pe1/urw/times/utmr8a.pfb><c:/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr
+i8a.pfb>
+Output written on research-note.pdf (8 pages, 2670316 bytes).
 PDF statistics:
- 270 PDF objects out of 1000 (max. 8388607)
- 186 compressed objects within 2 object streams
+ 329 PDF objects out of 1000 (max. 8388607)
+ 229 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
  102 words of extra memory for PDF output out of 10000 (max. 10000000)
 
