@@ -5,14 +5,12 @@
 
 % 인코딩 관련 주의사항 : 이 클래스에서 기본적으로 kotex을 포함하고 있기에 따로 포함할 필요는 없으나, inputenc 등의 추가적인 class 사용이나 TeXstudio의 'Insert encoding as TeX comment'는 삼가시기 바랍니다.
 
-
 % 영어 Font : Times New Roman
 \usepackage[T1]{fontenc}   % To use Times New Roman
 \usepackage[utf8]{inputenc}% To use Times New Roman
 \usepackage{mathptmx}      % To use Times New Roman
 
 \usepackage{cite}
-
 \usepackage{extract}
 \usepackage{fancyhdr}
 \usepackage{CJKutf8}
@@ -93,11 +91,6 @@
 %\renewcommand{\baselinestretch}{1.3}
 \linespread{1.6}
 
-\newcommand{\researchType}{2017년 창의연구 R\&E Research Note}   %수정하세요.
-\newcommand{\researchTitle}{MODIS 자료를 이용한 Aerosol Optical Depth 산출} %수정하세요.
-\newcommand{\studentName}{연구자 : 김병현 외} %수정하세요.
-\newcommand{\institution}{경기과학고등학교} %수정하세요.
-
 %% 본문이 영어로 되어있는지 한글로 되어있는지 설정
 \newcommand{\@korean}{korean}
 \newcommand{\@english}{english}
@@ -119,9 +112,9 @@
 \pagestyle{gshs}
 
 %% 연구 타입
-\newcommand{\researchtype}[1]{
-	\newcommand{\@type}{#1}}
-\@onlypreamble{\researchtype}
+\newcommand{\researchType}[1]{
+	\newcommand{\@researchType}{#1}}
+\@onlypreamble{\researchType}
 
 
 %%
@@ -181,10 +174,10 @@
 \@onlypreamble{\professor}
 
 % @command English Title
-\newcommand{\englishtitle}[1]{
-	\newcommand{\@englishtitle}{#1}
+\newcommand{\englishTitle}[1]{
+	\newcommand{\@englishTitle}{#1}
 }
-\@onlypreamble{\englishtitle}
+\@onlypreamble{\englishTitle}
 
 % @command advisor 지도교사 이메일
 \newcommand{\professorEmail}[1]{
@@ -208,11 +201,11 @@
 	\renewcommand{\baselinestretch}{1.3}%
 	\thispagestyle{empty} \noindent%
 	\@summitYear 년도\newline
-	{\sf \textbf{창의연구 R\&E \@reporttype 보고서}}
+	{\sf \textbf{창의연구 R\&E 연구 노트}}
 	\vskip 3cm
 	\noindent\begin{minipage}[t]{\textwidth}
 		\begin{center}
-			\fontsize{21pt}{21pt}\selectfont  \@title \\[21pt]
+			\fontsize{21pt}{21pt}\selectfont  \@englishTitle \\[21pt]
 		\end{center}
 	\end{minipage}
 	\vskip 3.6604cm %3cm + 12pt*1.3*1.2
@@ -281,7 +274,7 @@
 	\if@isKorean 그 림 목 차 \else List of Figures \fi}
 \renewcommand{\listtablename}{%
 	%\if@isKorean 표 목 차    \else List of Tables  \fi}
-	\if@isKorean 표 목 차    \else 표 목 차  \fi}
+	\if@isKorean 표 목 차    \else List of Tables  \fi}
 %\renewcommand{\bibname}{%
 %	\if@isKorean 참 고 문 헌 \else References      \fi}
 %	\if@isKorean 참 고 문 헌 \else 참 고 문 헌      \fi}
@@ -390,21 +383,21 @@
 \setlength\parskip{0.1in}
 \setlength\headheight{15pt}
 
+
+
 %%%%%%%%%%% NEW COMMANDS %%%%%%%%%%%%%%
 \newcommand{\schoollogo}{
 	\begin{wrapfigure}{l}{0.07\textwidth}
 		\vspace{-30pt}
-			\includegraphics[width=0.07\textwidth]{./img/logo.png}
+		\includegraphics[width=0.07\textwidth]{./img/logo.png}
 	\end{wrapfigure}
 }
 
 %%%%%%%%%%% HEADER / FOOTER %%%%%%%%%%%
-\rhead{\textsc{\researchTitle}}
-\lhead{\textsc{\researchType}}
+\rhead{\textsc{\@researchType   Research Note}}
+\lhead{\textsc{\@englishTitle}}
 %\lfoot{\textsc{\institution}}
 %\lfoot{\includegraphics[width=0.05\textwidth]{./img/logo.png} 경기과학고등학교}
-\lfoot{\schoollogo 경기과학고등학교}
-\cfoot{\textit{\studentName}}
+\lfoot{\schoollogo \institution}
+\cfoot{\textit{연구참여자 : \@firstAuthor, \@secondAuthor, \@thirdAuthor, \@fourthAuthor}}
 \rfoot{Page \thepage}
-
-

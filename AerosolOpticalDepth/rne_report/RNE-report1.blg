@@ -2,64 +2,47 @@ This is BibTeX, Version 0.99d (TeX Live 2016/W32TeX)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: RNE-report1.aux
 The style file: plain.bst
+I found no \citation commands---while reading file RNE-report1.aux
 Database file #1: RNE-report1.bib
-Warning--I didn't find a database entry for "Mok10"
-Warning--I didn't find a database entry for "Schindler74"
-Warning--I didn't find a database entry for "Sitnov97"
-Warning--I didn't find a database entry for "Zelenyi08"
-Warning--I didn't find a database entry for "Cheng98"
-Warning--I didn't find a database entry for "Bhattacharjee98"
-Warning--I didn't find a database entry for "Dobias04"
-Warning--I didn't find a database entry for "Zhu03"
-Warning--I didn't find a database entry for "Saito08"
-Warning--I didn't find a database entry for "Friedrich01"
-Warning--I didn't find a database entry for "Shinohara98"
-Warning--I didn't find a database entry for "Yoon02"
-Warning--I didn't find a database entry for "Mok06"
-Warning--I didn't find a database entry for "Rostoker84"
-Warning--I didn't find a database entry for "Dovias06"
-Warning--I didn't find a database entry for "Yoon93"
-Warning--I didn't find a database entry for "Sadovskii01"
-Warning--I didn't find a database entry for "Yoon06"
-You've used 1 entry,
+You've used 0 entries,
             2118 wiz_defined-function locations,
-            538 strings with 4497 characters,
-and the built_in function-call counts, 475 in all, are:
-= -- 49
-> -- 18
-< -- 1
-+ -- 7
-- -- 6
-* -- 30
-:= -- 76
-add.period$ -- 3
-call.type$ -- 1
-change.case$ -- 6
+            496 strings with 3995 characters,
+and the built_in function-call counts, 18 in all, are:
+= -- 0
+> -- 0
+< -- 0
++ -- 0
+- -- 0
+* -- 2
+:= -- 7
+add.period$ -- 0
+call.type$ -- 0
+change.case$ -- 0
 chr.to.int$ -- 0
-cite$ -- 1
-duplicate$ -- 20
-empty$ -- 33
-format.name$ -- 6
-if$ -- 103
+cite$ -- 0
+duplicate$ -- 0
+empty$ -- 1
+format.name$ -- 0
+if$ -- 1
 int.to.chr$ -- 0
-int.to.str$ -- 1
-missing$ -- 1
-newline$ -- 8
-num.names$ -- 2
-pop$ -- 6
+int.to.str$ -- 0
+missing$ -- 0
+newline$ -- 3
+num.names$ -- 0
+pop$ -- 0
 preamble$ -- 1
-purify$ -- 5
+purify$ -- 0
 quote$ -- 0
-skip$ -- 19
+skip$ -- 1
 stack$ -- 0
-substring$ -- 37
-swap$ -- 10
-text.length$ -- 1
+substring$ -- 0
+swap$ -- 0
+text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 4
+type$ -- 0
 warning$ -- 0
-while$ -- 5
-width$ -- 2
-write$ -- 13
-(There were 18 warnings)
+while$ -- 0
+width$ -- 0
+write$ -- 2
+(There was 1 error message)
