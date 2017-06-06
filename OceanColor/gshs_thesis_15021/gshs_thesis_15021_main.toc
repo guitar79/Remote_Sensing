@@ -10,7 +10,7 @@
 \contentsline {section}{\numberline {3}Results}{6}
 \contentsline {subsection}{\numberline {3.1}The Annual Variability of Chlorophyll-a Concentration in the Korean East Sea}{6}
 \contentsline {subsection}{\numberline {3.2}The Effect of Spatial Resolution on the Data}{7}
-\contentsline {section}{\numberline {4}Discussion}{13}
-\contentsline {section}{References}{14}
-\contentsline {section}{감사의 글}{15}
-\contentsline {section}{연구활동}{16}
+\contentsline {section}{\numberline {4}Discussion}{10}
+\contentsline {section}{References}{11}
+\contentsline {section}{감사의 글}{12}
+\contentsline {section}{연구활동}{13}

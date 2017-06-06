@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016/W32TeX) (preloaded format=xelatex 2017.3.16)  6 JUN 2017 02:55
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016/W32TeX) (preloaded format=xelatex 2017.3.16)  6 JUN 2017 12:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1073,4 +1073,403 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
+ [3] [4]
+[1] [2] (./gshs_thesis_15021_main.toc)
+\tf@toc=\write3
+\openout3 = `gshs_thesis_15021_main.toc'.
+
  [3
+
+] (./gshs_thesis_15021_main.lot)
+\tf@lot=\write4
+\openout4 = `gshs_thesis_15021_main.lot'.
+
+
+[4
+
+
+] (./gshs_thesis_15021_main.lof
+Overfull \hbox (4.82535pt too wide) in paragraph at lines 1--1
+ [][] []\TU/TimesNewRoman(0)/m/n/10.95 The monthly-mean chlorophyll-a distribut
+ion in the Korean East Sea, LAC. 
+ []
+
+
+Overfull \hbox (4.82535pt too wide) in paragraph at lines 2--2
+ [][] []\TU/TimesNewRoman(0)/m/n/10.95 The monthly-mean chlorophyll-a distribut
+ion in the Korean East Sea, LAC. 
+ []
+
+
+Overfull \hbox (6.04439pt too wide) in paragraph at lines 3--3
+ [][] []\TU/TimesNewRoman(0)/m/n/10.95 The monthly-mean chlorophyll-a distribut
+ion in the Korean East Sea, GAC. 
+ []
+
+
+Overfull \hbox (6.04439pt too wide) in paragraph at lines 4--4
+ [][] []\TU/TimesNewRoman(0)/m/n/10.95 The monthly-mean chlorophyll-a distribut
+ion in the Korean East Sea, GAC. 
+ []
+
+)
+\tf@lof=\write5
+\openout5 = `gshs_thesis_15021_main.lof'.
+
+ [5
+
+
+]
+! Undefined control sequence.
+l.53 \listofequations
+                     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+)
+\openout2 = `sub/introduction.aux'.
+
+ (./sub/introduction.tex
+
+LaTeX Warning: Citation `kyung2013characteristics' on page 1 undefined on input
+ line 5.
+
+
+LaTeX Warning: Citation `hooker1992An' on page 1 undefined on input line 5.
+
+
+LaTeX Warning: Citation `kimhc2016surface' on page 1 undefined on input line 7.
+
+
+
+LaTeX Warning: Citation `o2000ocean' on page 1 undefined on input line 9.
+
+
+LaTeX Warning: Citation `yamada2004seasonal' on page 1 undefined on input line 
+11.
+
+
+LaTeX Warning: Citation `chae2009characteristics' on page 1 undefined on input 
+line 11.
+
+[1
+
+
+
+
+
+
+]) [2]
+\openout2 = `sub/methodology.aux'.
+
+ (./sub/methodology.tex
+
+LaTeX Warning: Reference `table01' on page 3 undefined on input line 5.
+
+
+LaTeX Warning: Reference `table02' on page 3 undefined on input line 5.
+
+
+LaTeX Warning: Citation `hooker1992An' on page 3 undefined on input line 5.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \let 
+l.8  ^^I\caption
+                {The mission characteristics of SeaWiFS.}
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \let 
+l.8  ^^I\caption
+                {The mission characteristics of SeaWiFS.}
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \let 
+l.26 ^^I\caption
+                {Cahracteristics of the DeaWiFS ocean color sensor.}
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \let 
+l.26 ^^I\caption
+                {Cahracteristics of the DeaWiFS ocean color sensor.}
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+LaTeX Warning: Reference `eq001' on page 3 undefined on input line 45.
+
+[3
+
+
+]
+
+LaTeX Warning: Citation `o2000ocean' on page 4 undefined on input line 52.
+
+
+LaTeX Warning: Citation `hu2012chlorophyll' on page 4 undefined on input line 5
+3.
+
+[4]) [5]
+\openout2 = `sub/body1.aux'.
+
+ (./sub/body1.tex
+
+LaTeX Warning: Reference `fig:noname01' on page 6 undefined on input line 16.
+
+
+LaTeX Warning: Reference `fig:monGAC01' on page 6 undefined on input line 16.
+
+
+LaTeX Warning: Reference `fig:noname03' on page 6 undefined on input line 16.
+
+
+LaTeX Warning: Reference `fig:monGAC02' on page 6 undefined on input line 16.
+
+[6
+
+
+]
+
+! LaTeX Error: File `../images/mon_GAC01' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 ...[width=0.8\linewidth]{../images/mon_GAC01}
+                                                  \\
+I could not locate the file with any of these extensions:
+.pdf,.PDF,.eps,.EPS,.mps,.MPS,.ps,.PS,.png,.PNG,.jpg,.JPG,.jpeg,.JPEG,.jp2,.JP2
+,.jpf,.JPF,.bmp,.BMP,.pict,.PICT,.psd,.PSD,.mac,.MAC,.TGA,.tga,.gif,.GIF,.tif,.
+TIF,.tiff,.TIFF,
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 ...idth=0.8\linewidth]{../images/mon_GAC01}\\
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: File `../images/mon_LAC01' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.27 ...[width=0.8\linewidth]{../images/mon_LAC01}
+                                                  \\
+I could not locate the file with any of these extensions:
+.pdf,.PDF,.eps,.EPS,.mps,.MPS,.ps,.PS,.png,.PNG,.jpg,.JPG,.jpeg,.JPEG,.jp2,.JP2
+,.jpf,.JPF,.bmp,.BMP,.pict,.PICT,.psd,.PSD,.mac,.MAC,.TGA,.tga,.gif,.GIF,.tif,.
+TIF,.tiff,.TIFF,
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.27 ...idth=0.8\linewidth]{../images/mon_LAC01}\\
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: File `../images/mon_GAC02' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.34 ...[width=0.8\linewidth]{../images/mon_GAC02}
+                                                  \\
+I could not locate the file with any of these extensions:
+.pdf,.PDF,.eps,.EPS,.mps,.MPS,.ps,.PS,.png,.PNG,.jpg,.JPG,.jpeg,.JPEG,.jp2,.JP2
+,.jpf,.JPF,.bmp,.BMP,.pict,.PICT,.psd,.PSD,.mac,.MAC,.TGA,.tga,.gif,.GIF,.tif,.
+TIF,.tiff,.TIFF,
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.34 ...idth=0.8\linewidth]{../images/mon_GAC02}\\
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: File `../images/mon_LAC02' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.41 ...[width=0.8\linewidth]{../images/mon_LAC02}
+                                                  \\
+I could not locate the file with any of these extensions:
+.pdf,.PDF,.eps,.EPS,.mps,.MPS,.ps,.PS,.png,.PNG,.jpg,.JPG,.jpeg,.JPEG,.jp2,.JP2
+,.jpf,.JPF,.bmp,.BMP,.pict,.PICT,.psd,.PSD,.mac,.MAC,.TGA,.tga,.gif,.GIF,.tif,.
+TIF,.tiff,.TIFF,
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.41 ...idth=0.8\linewidth]{../images/mon_LAC02}\\
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: File `../images/mon_GAC03' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.48 ...[width=0.8\linewidth]{../images/mon_GAC03}
+                                                  \\
+I could not locate the file with any of these extensions:
+.pdf,.PDF,.eps,.EPS,.mps,.MPS,.ps,.PS,.png,.PNG,.jpg,.JPG,.jpeg,.JPEG,.jp2,.JP2
+,.jpf,.JPF,.bmp,.BMP,.pict,.PICT,.psd,.PSD,.mac,.MAC,.TGA,.tga,.gif,.GIF,.tif,.
+TIF,.tiff,.TIFF,
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.48 ...idth=0.8\linewidth]{../images/mon_GAC03}\\
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: File `../images/mon_LAC03' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.55 ...[width=0.8\linewidth]{../images/mon_LAC03}
+                                                  \\
+I could not locate the file with any of these extensions:
+.pdf,.PDF,.eps,.EPS,.mps,.MPS,.ps,.PS,.png,.PNG,.jpg,.JPG,.jpeg,.JPEG,.jp2,.JP2
+,.jpf,.JPF,.bmp,.BMP,.pict,.PICT,.psd,.PSD,.mac,.MAC,.TGA,.tga,.gif,.GIF,.tif,.
+TIF,.tiff,.TIFF,
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.55 ...idth=0.8\linewidth]{../images/mon_LAC03}\\
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[7]) [8] [9]
+\openout2 = `sub/conclusion.aux'.
+
+ (./sub/conclusion.tex
+! Misplaced alignment tab character &.
+l.2 ...a, K., Ishizaka, J., Yoo, S., Kim, H. C., &
+                                                   Chiba, S. (2004). Analysi...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+) [10
+
+
+] (./gshs_thesis_15021_main.bbl
+
+LaTeX Warning: Empty `thebibliography' environment on input line 3.
+
+) [11
+
+]
+\openout2 = `sub/footer.aux'.
+
+ (./sub/footer.tex [12
+
+] [13]) (./gshs_thesis_15021_main.aux
+(./sub/abstract.aux) (./sub/introduction.aux) (./sub/methodology.aux)
+(./sub/body1.aux) (./sub/conclusion.aux) (./sub/footer.aux))
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 18737 strings out of 493068
+ 338171 string characters out of 6138948
+ 409458 words of memory out of 5000000
+ 22352 multiletter control sequences out of 15000+600000
+ 22700 words of font info for 106 fonts, out of 8000000 for 9000
+ 1347 hyphenation exceptions out of 8191
+ 59i,8n,77p,10530b,2385s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on gshs_thesis_15021_main.pdf (22 pages).
