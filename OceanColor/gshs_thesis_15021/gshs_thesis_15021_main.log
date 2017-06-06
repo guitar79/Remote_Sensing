@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016/W32TeX) (preloaded format=xelatex 2017.3.16)  6 JUN 2017 02:14
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016/W32TeX) (preloaded format=xelatex 2017.3.16)  6 JUN 2017 02:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -932,25 +932,23 @@ Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode not found.
 )))
-(./gshs_thesis_15021_main.aux (./sub/abstract.aux) (./sub/introduction.aux)
-(./sub/methodology.aux) (./sub/result.aux) (./sub/conclusion.aux)
-(./sub/footer.aux))
+(./gshs_thesis_15021_main.aux (./sub/abstract.aux))
 \openout1 = `gshs_thesis_15021_main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -1023,7 +1021,7 @@ Package caption Info: End \AtBeginDocument code.
 .................................................
 \symmathhangul=\mathgroup8
 LaTeX Font Info:    Overwriting symbol font `mathhangul' in version `bold'
-(Font)                  TU/Batang(0)/m/n --> TU/Batang(0)/bx/n on input line 20
+(Font)                  TU/Batang(0)/m/n --> TU/Batang(0)/bx/n on input line 19
 .
 \c@lstlisting=\count169
 \openout2 = `sub/abstract.aux'.
@@ -1075,212 +1073,4 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
- [3] [4]
-[1] [2] (./gshs_thesis_15021_main.toc)
-\tf@toc=\write3
-\openout3 = `gshs_thesis_15021_main.toc'.
-
  [3
-
-] (./gshs_thesis_15021_main.lot)
-\tf@lot=\write4
-\openout4 = `gshs_thesis_15021_main.lot'.
-
-
-[4
-
-
-] (./gshs_thesis_15021_main.lof
-Overfull \hbox (4.82535pt too wide) in paragraph at lines 1--1
- [][] []\TU/TimesNewRoman(0)/m/n/10.95 The monthly-mean chlorophyll-a distribut
-ion in the Korean East Sea, LAC. 
- []
-
-
-Overfull \hbox (4.82535pt too wide) in paragraph at lines 2--2
- [][] []\TU/TimesNewRoman(0)/m/n/10.95 The monthly-mean chlorophyll-a distribut
-ion in the Korean East Sea, LAC. 
- []
-
-
-Overfull \hbox (6.04439pt too wide) in paragraph at lines 3--3
- [][] []\TU/TimesNewRoman(0)/m/n/10.95 The monthly-mean chlorophyll-a distribut
-ion in the Korean East Sea, GAC. 
- []
-
-
-Overfull \hbox (6.04439pt too wide) in paragraph at lines 4--4
- [][] []\TU/TimesNewRoman(0)/m/n/10.95 The monthly-mean chlorophyll-a distribut
-ion in the Korean East Sea, GAC. 
- []
-
-)
-\tf@lof=\write5
-\openout5 = `gshs_thesis_15021_main.lof'.
-
- [5
-
-
-]
-! Undefined control sequence.
-l.52 \listofequations
-                     
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-)
-\openout2 = `sub/introduction.aux'.
-
- (./sub/introduction.tex [1
-
-
-
-
-
-
-]) [2]
-\openout2 = `sub/methodology.aux'.
-
- (./sub/methodology.tex
-! Missing number, treated as zero.
-<to be read again> 
-                   \let 
-l.8  ^^I\caption
-                {The mission characteristics of SeaWiFS.}
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \let 
-l.8  ^^I\caption
-                {The mission characteristics of SeaWiFS.}
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \let 
-l.26 ^^I\caption
-                {Cahracteristics of the DeaWiFS ocean color sensor.}
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \let 
-l.26 ^^I\caption
-                {Cahracteristics of the DeaWiFS ocean color sensor.}
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-[3
-
-
-]
-
-LaTeX Warning: Citation `hu2012chlorophyll' on page 4 undefined on input line 5
-3.
-
-! Misplaced alignment tab character &.
-l.59 ...Standard Mapped Image(SMI). Chae, H. J., &
-                                                   Park, K. (2009) used weig...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-l.59 ...to Park, K. A., Park, J. E., Lee, M. S., &
-                                                   Kang, C. K. (2012), both ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-[4]) [5]
-\openout2 = `sub/result.aux'.
-
- (./sub/result.tex [6
-
-
-]
-File: images/../images/noname01.jpg Graphic file (type QTm)
- <use  "images/../images/noname01.jpg" >
-
-LaTeX Warning: Float too large for page by 20.48651pt on input line 22.
-
-File: images/../images/noname02.jpg Graphic file (type QTm)
-<use  "images/../images/noname02.jpg" >
-
-LaTeX Warning: Float too large for page by 20.48651pt on input line 30.
-
-File: images/../images/noname03.jpg Graphic file (type QTm)
-<use  "images/../images/noname03.jpg" >
-
-LaTeX Warning: Float too large for page by 33.02467pt on input line 37.
-
-File: images/../images/noname04.jpg Graphic file (type QTm)
-<use  "images/../images/noname04.jpg" >
-
-LaTeX Warning: Float too large for page by 33.02467pt on input line 44.
-
-[7] [8] [9] [10] [11]) [12]
-\openout2 = `sub/conclusion.aux'.
-
- (./sub/conclusion.tex
-! Misplaced alignment tab character &.
-l.2 ...a, K., Ishizaka, J., Yoo, S., Kim, H. C., &
-                                                   Chiba, S. (2004). Analysi...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-) [13
-
-
-] (./gshs_thesis_15021_main.bbl) [14
-
-]
-\openout2 = `sub/footer.aux'.
-
- (./sub/footer.tex [15
-
-] [16])
-(./gshs_thesis_15021_main.aux (./sub/abstract.aux) (./sub/introduction.aux)
-(./sub/methodology.aux) (./sub/result.aux) (./sub/conclusion.aux)
-(./sub/footer.aux))
-
-LaTeX Warning: There were undefined references.
-
- ) 
-Here is how much of TeX's memory you used:
- 18734 strings out of 493068
- 338550 string characters out of 6138948
- 412035 words of memory out of 5000000
- 22361 multiletter control sequences out of 15000+600000
- 22708 words of font info for 107 fonts, out of 8000000 for 9000
- 1347 hyphenation exceptions out of 8191
- 59i,8n,77p,10530b,2385s stack positions out of 5000i,500n,10000p,200000b,80000s
-
-Output written on gshs_thesis_15021_main.pdf (25 pages).

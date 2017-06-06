@@ -2,7 +2,7 @@
 
 \subsection{Acquiring SeaWiFS data}
 
- This research used SeaWiFS ocean color data to derive chlorophyll-a concentration since SeaWiFS is a satellite that was created to collect global ocean biological data. Moreover, SeaWiFS creates data with two different resolutions that can be compared. However, research on recent years is not possible since SeaWiFS had been activating from September 1997 to December 2010. Table \ref{table01} shows the mission charactoristics of SeaWiFS and Table \ref{table02} shows the Cahracteristics of the DeaWiFS ocean color sensor \cite{hooker1992An}.
+ This research used SeaWiFS ocean color data to derive chlorophyll-a concentration since SeaWiFS is a satellite that was created to collect global ocean biological data. Moreover, SeaWiFS creates data with two different resolutions that can be compared. However, research on recent years is not possible since SeaWiFS had been activating from September 1997 to December 2010. Table \ref{table01} shows the mission charactoristics of SeaWiFS and Table \ref{table02} shows the Cahracteristics of the SeaWiFS ocean color sensor \cite{hooker1992An}.
 
  \begin{table}[h]\textwidth
  	\caption{The mission characteristics of SeaWiFS.}
@@ -56,7 +56,9 @@ The area of interest was chosen as 32.31°N - 45.00°N, 126.74°E - 135.00°E wh
 
  \subsection{Deriving Chlorophyll-a Concentration using LAC data and GAC data}
  
-  NASA SeaDAS is used to process the level 2 data of chlorophyll-a to level 3 data of monthly-mean/ 8-day-mean of chlorophyll-a concentration data. Monthly-mean data is created to show the overall tendency, while 8-day-mean data is created to see more specific tendency. Simple average method had been used to create the mean files. This method sum pixel values of chlorophyll-a at the same location and divide it by the number of data that has been compiled. This process also gives latitude longitude value to the pixels, creating a Standard Mapped Image(SMI). Chae, H. J., & Park, K. (2009) used weighted average method to process data. However, according to Park, K. A., Park, J. E., Lee, M. S., & Kang, C. K. (2012), both the weighted average method and the simple average method are suitable for processing SeaWiFS data in East Sea. In addition, we use the more general method which is the simple average method.
+  NASA SeaDAS is used to process the level 2 data of chlorophyll-a to level 3 data of monthly-mean/ 8-day-mean of chlorophyll-a concentration data. Monthly-mean data is created to show the overall tendency, while 8-day-mean data is created to see more specific tendency. Simple average method had been used to create the mean files. This method sum pixel values of chlorophyll-a at the same location and divide it by the number of data that has been compiled. This process also gives latitude longitude value to the pixels, creating a Standard Mapped Image(SMI). Chae, H. J., \& Park, K. (2009) used weighted average method to process data. However, according to Park, K. A., Park, J. E., Lee, M. S., \& Kang, C. K. (2012), both the weighted average method and the simple average method are suitable for processing SeaWiFS data in East Sea. In addition, we use the more general method which is the simple average method.
  Since running each process using SeaDAS is inconvenient, so we automate the process by using python batch processing. This commands SeaDAS to repeat the process. Python can also create png files from the SMI. We use the obtained monthly-mean and 8-day-mean data to find the annual variability of chlorophyll-a concentration.
  The effect of spatial resolution on the data was also progressed. The histograms for chlorophyll-a concentration were compared between LAC data and GAC data. Then, the SMI data itself was enlarged to find the difference between them.
+ 
+ 
  
