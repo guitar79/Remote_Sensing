@@ -8,12 +8,19 @@ Created on Mon Aug 21 22:32:11 2017
 import requests
 from bs4 import BeautifulSoup
 
-# Preparing entry data for bs4
-TAGNAME = "a"
-ATTR    = "class"
-VALUE   = "target-class"
-TARGET  = "http://randomblog.com/page/"
-TG_ATTR = "href"
+page = requests.get("http://www.kma.go.kr/weather/images/satellite_basic03.jsp?prevSat=le1b&sat=le1b&dtm=&area=a&x=20&y=9&data=ir1&tm=2017.08.21&tmHour=22%3A30")
+
+page.content
+soup = BeautifulSoup(page.content, 'html.parser')
+print(soup.prettify())
+list(soup.children)
+
+[type(item) for item in list(soup.children)] 
+
+html = list(soup.children)[3]
+
+list(html.children)
+
 
 def crawler(max_pages):
   page = 1
