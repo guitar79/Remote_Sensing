@@ -35,7 +35,7 @@ class crawler():
 				for trs in mytable[1].find_all('tr'):
 					for tds in trs.find_all('td'):
 						#print data
-						output += "%d%02d%02d%02d%02d" % (year, Mo, Da, Ho, Mn)
+						#output += "%d%02d%02d%02d%02d" % (year, Mo, Da, Ho, Mn)
 						self.output += tds.text
 						#csv delimeter
 						self.output += ','
@@ -68,7 +68,7 @@ class crawler_month(threading.Thread):
 
 
 threadno = 0
-for year in range(2016,2017):
+for year in range(2015,2016):
 	for Mo in range(1,2):
 		cmonth = crawler_month(year, Mo, threadno)
 		cmonth.start()
