@@ -27,6 +27,7 @@ import urllib.request
 from pathlib import Path
 from datetime import time
 from datetime import date
+from datetime import timedelta
 chl1 = ["ghmd_s24","sfc3","surf","up92","up85","up70","up50","up30","up20","up10"]
 chl2 = ["rww3_wind_ft03_pa4_s000","n500_anlmod_pb4","surf_newsur_pa4","kor1_anlmod_pb4","r3oi_lc30_anal_axfe01_pb4","r3oi_lc30_anal_axfe02_pb4","up50","up30","up20","up10"]
 day = date.today()
@@ -60,4 +61,4 @@ for d in range(1,10):
 					print ('Downloaded %s' % url)
 				except  urllib.error.HTTPError: # image file doesn't exists in the server
 					print ('cannot download %s' % filename)
-	day = day - timedelta(hours=(24*h)) #하루 전날로 이동
+	day = day - timedelta(hours=(24*d)) #하루 전날로 이동
