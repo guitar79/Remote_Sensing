@@ -35,7 +35,7 @@ class crawler():
 				for trs in mytable[1].find_all('tr'):
 					for tds in trs.find_all('td'):
 						#print data
-						output += "%d%02d%02d%02d%02d" % (year, Mo, Da, Ho, Mn)
+						#output += "%d%02d%02d%02d%02d" % (year, Mo, Da, Ho, Mn)
 						self.output += tds.text
 						#csv delimeter
 						self.output += ','
