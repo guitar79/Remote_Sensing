@@ -5,12 +5,12 @@
 #http://nmsc.kma.go.kr/emcoms/BIMG/COMS/Y2017/M08/D26/coms_mi_le1b_ir1_cf_201708260215.png # fulldisk asia
 """
 #chl = [vis, ir1, ir2, swir, wv]
-chl = "ir2"
+chl = "swir"
 #area = [cf, cn, a, k, lk]
 area = "a"
 import urllib.request
 from pathlib import Path
-for year in range(2017,2018):
+for year in range(2016,2017):
 	for Mo in range(1,13):
 		for Da in range(1,32):
 			for Ho in range(24):
