@@ -1,6 +1,6 @@
 """
 @author: guitar79@naver.com, yyyyy@snu.ac.kr
-view-source:http://www.kma.go.kr/cgi-bin/aws/nph-aws_txt_min?201008262022&0&MINDB_01M&0&a
+view-source:http://www.kma.go.kr/cgi-bin/aws/nph-aws_txt_min?2008262022&0&MINDB_01M&0&a
 www.kma.go.kr/cgi-bin/aws/nph-aws_txt_min?201708270810&0&MINDB_10M&0&m
 """
 from urllib.request import urlopen
@@ -27,11 +27,11 @@ class crawler():
 		self.output = ''
 
 	def fetch(self):
-		while True:
-			my_file = Path(prefix + '_%d%02d%02d%02d%02d.csv' % (self.year, self.month, self.day, self.hour, self.minute))
-			if my_file.is_file(): # csv file already exists in my folder
-					    print ('File exists ' + prefix + '_%d%02d%02d%02d%02d.csv' % (self.year, self.month, self.day, self.hour, self.minute))
-			else:
+		my_file = Path(prefix + '_%d%02d%02d%02d%02d.csv' % (self.year, self.month, self.day, self.hour, self.minute))
+		if my_file.is_file(): # csv file already exists in my folder
+			print ('File exists ' + prefix + '_%d%02d%02d%02d%02d.csv' % (self.year, self.month, self.day, self.hour, self.minute))
+		else:	
+			while True:
 				try:
 					url = "http://www.kma.go.kr/cgi-bin/aws/nph-aws_txt_min?%d%02d%02d%02d%02d&0&MINDB_60M&0&m" % (self.year, self.month, self.day, self.hour, self.minute)
 					soup = BeautifulSoup(urlopen(url), "html.parser")
@@ -66,14 +66,14 @@ class crawler_month(threading.Thread):
 
 	def run(self):
 		for Ho in range(0,24):
-			for Mn in range(0,60,60): #60min data
+			for Mn in range(0,60,60): 
 				fetcher = crawler(self.year, self.month, self.day, Ho, Mn)
 				fetcher.fetch()
 				sys.stderr.write('Thread #%d - fetched %d-%02d-%02d %02d:%02d...\n' % (self.threadno, self.year, self.month, self.day, Ho, Mn))
 
 
 threadno = 0
-for year in range(2014,2015):
+for year in range(2015,2016):
 	for Mo in range(1,13):
 		for Da in range(1,32):
 			cmonth = crawler_month(year, Mo, Da, threadno)
