@@ -18,13 +18,14 @@ prefix = 'AWS-01min'
 
 #single thread class
 class crawler():
-	def __init__(self, year, month, day, hour, minute):
+	def __init__(self, year, month, day, hour, minute, threadno):
 		self.year = year
 		self.month = month
 		self.day = day
 		self.hour = hour
 		self.minute = minute
 		self.output = ''
+		self.threadno = threadno
 
 	def fetch(self):
 		my_file = Path(prefix + '_%d%02d%02d%02d%02d.csv' % (self.year, self.month, self.day, self.hour, self.minute))
@@ -52,6 +53,7 @@ class crawler():
 						f.write(self.output)
 					break
 				except:
+					sys.stderr.write("Thread #%d failed...retry\n" % self.threadno)
 					pass
 
 #crawler for single month
@@ -67,15 +69,15 @@ class crawler_month(threading.Thread):
 	def run(self):
 		for Ho in range(0,24):
 			for Mn in range(0,60): 
-				fetcher = crawler(self.year, self.month, self.day, Ho, Mn)
+				fetcher = crawler(self.year, self.month, self.day, Ho, Mn, self.threadno)
 				fetcher.fetch()
 				sys.stderr.write('Thread #%d - fetched %d-%02d-%02d %02d:%02d...\n' % (self.threadno, self.year, self.month, self.day, Ho, Mn))
 
 
 threadno = 0
-for year in range(2011,2014):
+for year in range(2010,2012):
 	for Mo in range(1,13):
 		for Da in range(1,32):
 			cmonth = crawler_month(year, Mo, Da, threadno)
 			cmonth.start()
-		threadno += 1
+			threadno += 1
