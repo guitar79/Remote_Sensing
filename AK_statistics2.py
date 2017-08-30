@@ -16,32 +16,28 @@ for i in sorted(os.listdir(dr)):
     if i[-4:] == '.csv':
         #make data frame (like table)
         f = pd.read_csv(dr+i, encoding='euc_kr')
-        avg_pm10 = f.mean(axis=8)
-        #count number of code 
-        ocode = f.ix[:,'측정소코드']
-        ocode = ocode[1:]
-        
-        f = open(dr+i, 'r',encoding='euc_kr').read().split('\n')
-        f = f[8:]
-        f = filter(lambda x: '\t' in x, f)
-        f = np.array(list(map(lambda x: x.split(','), f)))
-        totalrecord = len(f)
-        g = np.array(list(filter(lambda x: x[8] == " ", f)))
-        f = np.array(list(filter(lambda x: x[8] != 0 and float(x[8]) > 0, f)))
-        f = np.array(list(filter(lambda x: float(x[8]) > 0, f)))
-        statinum = len(f) 
-        errornum = len(g)
-        if statinum != 0:
-            avg_pm10 = np.mean(f[:,8].astype(np.float))
-            print = (avg_pm10)    
-        #vmed = np.median(f[:,1].astype(np.float))
-         #       vstd = np.std(f[:,1].astype(np.float))
-          #      vvar = np.var(f[:,1].astype(np.float))
-           #     vmax = np.amax(f[:,1].astype(np.float))
-            #    vmin = np.amin(f[:,1].astype(np.float))
-             #   with open(dr1+'python_programs/statistics'+dt+'.txt', 'a') as o:
-                    #print(i, th1+'--',vsum, vavg, vmed, vstd, vvar, vmax, vmin, totalpix, nanpix, statipix, file=o)
-          #  else:
-          #      with open(dr1+'python_programs/statistics'+dt+'.txt', 'a') as o:
-           #         print(i, th1+'--',0, 0, 0, 0, 0, 0, 0, totalpix, nanpix, statipix, file=o)
-
+        total_datanum = len(f)
+        ocode = list(set(np.array(f.ix[:,'측정소코드'])))
+        onumber = len(ocode)
+        total_mean_value = f.mean()
+        total_var_value = f.var()
+        total_std_value = f.std()
+        total_max_value = f.max()
+        total_min_value = f.min()
+        with open(dr+'statistics_total.txt', 'a') as o:
+            print(i, total_datanum, total_mean_value, total_var_value, total_std_value, total_max_value, total_min_value, file=o)
+            for obs in ocode:
+                fo=f.loc[f['측정소코드'] == obs]
+                #fo=f[f['측정소코드']].isin(obs)
+                o_datanum = len(fo)
+                if o_datanum != 0:
+                    o_mean_value = fo.mean()
+                    o_var_value = fo.var()
+                    o_std_value = fo.std()
+                    o_max_value = fo.max()
+                    o_min_value = fo.min()
+                    with open(dr+'statistics_o.txt', 'a') as o:
+                        print(i, obs, o_datanum, o_mean_value, o_var_value, o_std_value, o_max_value, o_min_value, file=o)
+                else:
+                    with open(dr+'statistics_o.txt', 'a') as o:
+                        print(i, obs, 'NaN', 'NaN', 'NaN', 'NaN', 'NaN', 'NaN', file=o)
